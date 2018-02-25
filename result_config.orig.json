@@ -1,0 +1,1146 @@
+{
+    "tabs": [
+        {
+            "pr": "Device Information", 
+            "elements": [
+                {
+                    "pr": "Device Information", 
+                    "width": 4, 
+                    "elements": [
+                        {
+                            "pr": "Description", 
+                            "name": "InternetGatewayDevice.DeviceInfo.Description"
+                        }, 
+                        {
+                            "pr": "Manufacturer", 
+                            "name": "InternetGatewayDevice.DeviceInfo.Manufacturer"
+                        }, 
+                        {
+                            "pr": "ModelName", 
+                            "name": "InternetGatewayDevice.DeviceInfo.ModelName"
+                        }, 
+                        {
+                            "pr": "SerialNumber", 
+                            "name": "InternetGatewayDevice.DeviceInfo.SerialNumber"
+                        }, 
+                        {
+                            "pr": "HardwareVersion", 
+                            "name": "InternetGatewayDevice.DeviceInfo.HardwareVersion"
+                        }, 
+                        {
+                            "pr": "ModemFirmwareVersion", 
+                            "name": "InternetGatewayDevice.DeviceInfo.ModemFirmwareVersion"
+                        }, 
+                        {
+                            "pr": "SoftwareVersion", 
+                            "name": "InternetGatewayDevice.DeviceInfo.SoftwareVersion"
+                        }, 
+                        {
+                            "pr": "ProductClass", 
+                            "name": "InternetGatewayDevice.DeviceInfo.ProductClass"
+                        }, 
+                        {
+                            "pr": "UpTime", 
+                            "name": "InternetGatewayDevice.DeviceInfo.UpTime"
+                        }, 
+                        {
+                            "pr": "EnableCWMP", 
+                            "mFunction": "convert_enabled", 
+                            "name": "InternetGatewayDevice.ManagementServer.EnableCWMP"
+                        }, 
+                        {
+                            "pr": "PeriodicInformEnable", 
+                            "mFunction": "convert_enabled", 
+                            "name": "InternetGatewayDevice.ManagementServer.PeriodicInformEnable"
+                        }, 
+                        {
+                            "pr": "ConnectionRequestUsername", 
+                            "name": "InternetGatewayDevice.ManagementServer.ConnectionRequestUsername"
+                        }, 
+                        {
+                            "pr": "ConnectionRequestURL", 
+                            "name": "InternetGatewayDevice.ManagementServer.ConnectionRequestURL"
+                        }, 
+                        {
+                            "pr": "PeriodicInformEnable", 
+                            "mFunction": "convert_enabled", 
+                            "name": "InternetGatewayDevice.ManagementServer.PeriodicInformEnable"
+                        }, 
+                        {
+                            "pr": "PeriodicInformTime", 
+                            "name": "InternetGatewayDevice.ManagementServer.PeriodicInformTime"
+                        }, 
+                        {
+                            "pr": "URL", 
+                            "name": "InternetGatewayDevice.ManagementServer.URL"
+                        }, 
+                        {
+                            "pr": "UDPConnectionRequestAddress", 
+                            "name": "InternetGatewayDevice.ManagementServer.UDPConnectionRequestAddress"
+                        }, 
+                        {
+                            "pr": "STUNServerAddress", 
+                            "name": "InternetGatewayDevice.ManagementServer.STUNServerAddress"
+                        }, 
+                        {
+                            "pr": "STUNEnable", 
+                            "mFunction": "convert_enabled", 
+                            "name": "InternetGatewayDevice.ManagementServer.STUNEnable"
+                        }
+                    ], 
+                    "__type": "section-widget", 
+                    "name": "DeviceInfos"
+                }, 
+                {
+                    "pr": "User Interface", 
+                    "width": 4, 
+                    "elements": [], 
+                    "__type": "section-widget", 
+                    "name": "UserInterface"
+                }
+            ], 
+            "__type": "support-portal-tab", 
+            "name": "MainDiag"
+        }, 
+        {
+            "pr": "Time Settings", 
+            "elements": [
+                {
+                    "pr": "Local Time", 
+                    "elements": [
+                        {
+                            "pr": "Enable", 
+                            "mFunction": "convert_enabled", 
+                            "name": "InternetGatewayDevice.Time.Enable"
+                        }, 
+                        {
+                            "pr": "CurrentLocalTime", 
+                            "mFunction": "convert_datetime", 
+                            "name": "InternetGatewayDevice.Time.CurrentLocalTime"
+                        }, 
+                        {
+                            "pr": "Status", 
+                            "name": "InternetGatewayDevice.Time.Status"
+                        }, 
+                        {
+                            "pr": "NTPServer1", 
+                            "name": "InternetGatewayDevice.Time.NTPServer1"
+                        }, 
+                        {
+                            "pr": "NTPServer2", 
+                            "name": "InternetGatewayDevice.Time.NTPServer2"
+                        }, 
+                        {
+                            "pr": "NTPServer3", 
+                            "name": "InternetGatewayDevice.Time.NTPServer3"
+                        }, 
+                        {
+                            "pr": "NTPServer4", 
+                            "name": "InternetGatewayDevice.Time.NTPServer4"
+                        }, 
+                        {
+                            "pr": "NTPServer5", 
+                            "name": "InternetGatewayDevice.Time.NTPServer5"
+                        }
+                    ], 
+                    "__type": "section-widget", 
+                    "name": "Time"
+                }
+            ], 
+            "__type": "support-portal-tab", 
+            "name": "Time"
+        }, 
+        {
+            "pr": "Network Map", 
+            "rootname": "Model name of Your device", 
+            "elements": [
+                {
+                    "pr": "Active", 
+                    "hide": "True", 
+                    "name": "I.LD.1.H.H._x_.A"
+                }, 
+                {
+                    "pr": "HostName", 
+                    "hide": "True", 
+                    "name": "I.LD.1.H.H._x_.HN", 
+                    "key": "id"
+                }, 
+                {
+                    "pr": "IP Address", 
+                    "name": "I.LD.1.H.H._x_.IA"
+                }, 
+                {
+                    "pr": "MAC address", 
+                    "mFunction": "eval_vendor", 
+                    "name": "I.LD.1.H.H._x_.MA"
+                }, 
+                {
+                    "pr": "IP Address Type", 
+                    "name": "I.LD.1.H.H._x_.IT"
+                }, 
+                {
+                    "pr": "Lease Time", 
+                    "name": "I.LD.1.H.H._x_.LTR"
+                }
+            ], 
+            "__type": "network-map-tree", 
+            "name": "NetworkMap", 
+            "__priority": -1, 
+            "classifiers": {
+                "_active": {
+                    "default": 1, 
+                    "values": [
+                        {
+                            "value": 1, 
+                            "match": "1"
+                        }
+                    ], 
+                    "key": "I.LD.1.H.H._x_.A"
+                }, 
+                "_group": {
+                    "default": "N/A", 
+                    "values": [
+                        {
+                            "match": "802.11", 
+                            "replace": "WiFi"
+                        }
+                    ], 
+                    "show_empty_default": "False", 
+                    "key": "I.LD.1.H.H._x_.IT"
+                }
+            }, 
+            "selector": "I.LD.1.H.H._x_.A"
+        }, 
+        {
+            "pr": "WAN Information", 
+            "elements": [
+                {
+                    "pr": "WAN IP Connections", 
+                    "parent_width": 12, 
+                    "elements": [
+                        {
+                            "pr": "Name", 
+                            "mFunction": "bold_dlink_dir300", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Name"
+                        }, 
+                        {
+                            "pr": "ConnectionType", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.ConnectionType"
+                        }, 
+                        {
+                            "pr": "AddressingType", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.AddressingType"
+                        }, 
+                        {
+                            "pr": "ExternalIPAddress", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.ExternalIPAddress"
+                        }, 
+                        {
+                            "pr": "SubnetMask", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.SubnetMask"
+                        }, 
+                        {
+                            "pr": "DNSEnabled", 
+                            "mFunction": "convert_enabled", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.DNSEnabled"
+                        }, 
+                        {
+                            "pr": "DNSServers", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.DNSServers"
+                        }, 
+                        {
+                            "pr": "Enable", 
+                            "mFunction": "convert_enabled", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Enable"
+                        }, 
+                        {
+                            "pr": "LastConnectionError", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.LastConnectionError"
+                        }, 
+                        {
+                            "pr": "MACAddress", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.MACAddress"
+                        }, 
+                        {
+                            "pr": "ConnectionStatus", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.ConnectionStatus"
+                        }, 
+                        {
+                            "pr": "NATEnabled", 
+                            "mFunction": "convert_enabled", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.NATEnabled"
+                        }, 
+                        {
+                            "pr": "Uptime", 
+                            "mFunction": "convert_uptime", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Uptime"
+                        }
+                    ], 
+                    "name": "IP WAN interfaces", 
+                    "selector": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Name", 
+                    "__flow": "SmartGPV", 
+                    "__type": "multi-section-table"
+                }, 
+                {
+                    "pr": "WAN IP Statistics", 
+                    "parent_width": 6, 
+                    "__flow": "SmartGPV", 
+                    "elements": [
+                        {
+                            "pr": "Name", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Name"
+                        }, 
+                        {
+                            "pr": "MACAddress", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.MACAddress"
+                        }, 
+                        {
+                            "pr": "EthernetBytesReceived", 
+                            "mFunction": "convert_traffic", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Stats.EthernetBytesReceived"
+                        }, 
+                        {
+                            "pr": "EthernetBytesSent", 
+                            "mFunction": "convert_traffic", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Stats.EthernetBytesSent"
+                        }, 
+                        {
+                            "pr": "EthernetDiscardPacketsReceived", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Stats.EthernetDiscardPacketsReceived"
+                        }, 
+                        {
+                            "pr": "EthernetDiscardPacketsSent", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Stats.EthernetDiscardPacketsSent"
+                        }, 
+                        {
+                            "pr": "EthernetErrorsReceived", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Stats.EthernetErrorsReceived"
+                        }, 
+                        {
+                            "pr": "EthernetErrorsSent", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Stats.EthernetErrorsSent"
+                        }, 
+                        {
+                            "pr": "EthernetPacketsReceived", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Stats.EthernetPacketsReceived"
+                        }, 
+                        {
+                            "pr": "EthernetPacketsSent", 
+                            "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Stats.EthernetPacketsSent"
+                        }
+                    ], 
+                    "__type": "multi-section-widget", 
+                    "name": "WANIPStats", 
+                    "child_width": 12, 
+                    "columns": 1, 
+                    "selector": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Name"
+                }, 
+                {
+                    "pr": "WAN Common Statistics", 
+                    "parent_width": 6, 
+                    "elements": [
+                        {
+                            "pr": "TotalBytesReceived", 
+                            "mFunction": "convert_traffic", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANCommonInterfaceConfig.TotalBytesReceived"
+                        }, 
+                        {
+                            "pr": "TotalBytesSent", 
+                            "mFunction": "convert_traffic", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANCommonInterfaceConfig.TotalBytesSent"
+                        }, 
+                        {
+                            "pr": "TotalPacketsReceived", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANCommonInterfaceConfig.TotalPacketsReceived"
+                        }, 
+                        {
+                            "pr": "TotalPacketsSent", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANCommonInterfaceConfig.TotalPacketsSent"
+                        }, 
+                        {
+                            "pr": "Layer1DownstreamMaxBitRate", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANCommonInterfaceConfig.Layer1DownstreamMaxBitRate"
+                        }, 
+                        {
+                            "pr": "Layer1UpstreamMaxBitRate", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANCommonInterfaceConfig.Layer1UpstreamMaxBitRate"
+                        }, 
+                        {
+                            "pr": "PhysicalLinkStatus", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANCommonInterfaceConfig.PhysicalLinkStatus"
+                        }, 
+                        {
+                            "pr": "WANAccessType", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANCommonInterfaceConfig.WANAccessType"
+                        }
+                    ], 
+                    "name": "WANCommonStats", 
+                    "selector": "InternetGatewayDevice.WANDevice._x_.WANCommonInterfaceConfig.TotalBytesReceived", 
+                    "__flow": "SmartGPV", 
+                    "__type": "multi-section-widget", 
+                    "child_width": 12
+                }, 
+                {
+                    "pr": "WAN Ethernet Interface Statistics", 
+                    "parent_width": 6, 
+                    "elements": [
+                        {
+                            "pr": "Status", 
+                            "mFunction": "convert_status", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANEthernetInterfaceConfig.Status"
+                        }, 
+                        {
+                            "pr": "MACAddress", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANEthernetInterfaceConfig.MACAddress"
+                        }, 
+                        {
+                            "pr": "DuplexMode", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANEthernetInterfaceConfig.DuplexMode"
+                        }, 
+                        {
+                            "pr": "BytesReceived", 
+                            "mFunction": "convert_traffic", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANEthernetInterfaceConfig.Stats.BytesReceived"
+                        }, 
+                        {
+                            "pr": "BytesSent", 
+                            "mFunction": "convert_traffic", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANEthernetInterfaceConfig.Stats.BytesSent"
+                        }, 
+                        {
+                            "pr": "PacketsReceived", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANEthernetInterfaceConfig.Stats.PacketsReceived"
+                        }, 
+                        {
+                            "pr": "PacketsSent", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANEthernetInterfaceConfig.Stats.PacketsSent"
+                        }, 
+                        {
+                            "pr": "MaxBitRate", 
+                            "name": "InternetGatewayDevice.WANDevice._x_.WANEthernetInterfaceConfig.MaxBitRate"
+                        }
+                    ], 
+                    "name": "WANEhernetInterfaceStats", 
+                    "selector": "InternetGatewayDevice.WANDevice._x_.WANEthernetInterfaceConfig.Enable", 
+                    "__flow": "SmartGPV", 
+                    "__type": "multi-section-widget", 
+                    "child_width": 12
+                }
+            ], 
+            "__type": "support-portal-tab", 
+            "name": "WANDiag"
+        }, 
+        {
+            "pr": "NAT Port mapping", 
+            "parent_width": 12, 
+            "elements": [
+                {
+                    "pr": "PortMappingEnabled", 
+                    "mFunction": "convert_enabled", 
+                    "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.PortMapping._x_.PortMappingEnabled"
+                }, 
+                {
+                    "pr": "PortMappingDescription", 
+                    "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.PortMapping._x_.PortMappingDescription"
+                }, 
+                {
+                    "pr": "PortMappingProtocol", 
+                    "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.PortMapping._x_.PortMappingProtocol"
+                }, 
+                {
+                    "pr": "ExternalPort", 
+                    "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.PortMapping._x_.ExternalPort"
+                }, 
+                {
+                    "pr": "InternalClient", 
+                    "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.PortMapping._x_.InternalClient"
+                }, 
+                {
+                    "pr": "InternalPort", 
+                    "name": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.PortMapping._x_.InternalPort"
+                }
+            ], 
+            "name": "NATPortmap", 
+            "selector": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.PortMapping._x_.PortMappingDescription", 
+            "__flow": "SmartGPV", 
+            "__type": "multi-section-table"
+        }, 
+        {
+            "pr": "NAT Information", 
+            "elements": [
+                {
+                    "pr": "LAN Config", 
+                    "flow": "LANFlow", 
+                    "elements": [
+                        {
+                            "pr": "DHCPServerEnable", 
+                            "mFunction": "convert_enabled", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPServerEnable"
+                        }, 
+                        {
+                            "pr": "IPInterfaceAddressingType", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceAddressingType"
+                        }, 
+                        {
+                            "pr": "IPInterfaceIPAddress", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceIPAddress"
+                        }, 
+                        {
+                            "pr": "IPRouters", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPRouters"
+                        }, 
+                        {
+                            "pr": "MaxAddress", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MaxAddress"
+                        }, 
+                        {
+                            "pr": "MinAddress", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MinAddress"
+                        }, 
+                        {
+                            "pr": "DHCPLeaseTime", 
+                            "mFunction": "convert_uptime", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPLeaseTime"
+                        }
+                    ], 
+                    "__type": "section-widget", 
+                    "name": "LAN"
+                }, 
+                {
+                    "__flow": "SmartGPV", 
+                    "pr": "DHCP Serving Pool", 
+                    "elements": [
+                        {
+                            "pr": "Enable", 
+                            "mFunction": "convert_enabled", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPConditionalServingPool._x_.Enable"
+                        }, 
+                        {
+                            "pr": "MaxAddress", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPConditionalServingPool._x_.MaxAddress"
+                        }, 
+                        {
+                            "pr": "MinAddress", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPConditionalServingPool._x_.MinAddress"
+                        }
+                    ], 
+                    "__type": "multi-section-widget", 
+                    "name": "DHCPLAN", 
+                    "parent_width": 12, 
+                    "child_width": 3, 
+                    "selector": "InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPConditionalServingPool._x_.Enable"
+                }
+            ], 
+            "__type": "support-portal-tab", 
+            "name": "NATDiag"
+        }, 
+        {
+            "pr": "LAN Information", 
+            "elements": [
+                {
+                    "__flow": "SmartGPV", 
+                    "pr": "LAN port status", 
+                    "elements": [
+                        {
+                            "pr": "Status", 
+                            "mFunction": "convert_status", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.Status"
+                        }, 
+                        {
+                            "pr": "Enable", 
+                            "mFunction": "convert_enabled", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.Enable"
+                        }, 
+                        {
+                            "pr": "BytesReceived", 
+                            "mFunction": "convert_traffic", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.Stats.BytesReceived"
+                        }, 
+                        {
+                            "pr": "BytesSent", 
+                            "mFunction": "convert_traffic", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.Stats.BytesSent"
+                        }, 
+                        {
+                            "pr": "PacketsReceived", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.Stats.PacketsReceived"
+                        }, 
+                        {
+                            "pr": "PacketsSent", 
+                            "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.Stats.PacketsSent"
+                        }
+                    ], 
+                    "__type": "multi-section-widget", 
+                    "name": "LANPorts", 
+                    "parent_width": 12, 
+                    "child_width": 3, 
+                    "flow": "MainDiagFlow", 
+                    "selector": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.Name"
+                }
+            ], 
+            "__type": "support-portal-tab", 
+            "name": "LANDiag"
+        }, 
+        {
+            "pr": "WiFi Information", 
+            "elements": [
+                {
+                    "pr": "SSID 2,4Ghz", 
+                    "parent_width": 12, 
+                    "elements": [
+                        {
+                            "pr": "Enable", 
+                            "mFunction": "convert_enabled", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.Enable"
+                        }, 
+                        {
+                            "pr": "Status", 
+                            "mFunction": "convert_status", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.Status"
+                        }, 
+                        {
+                            "pr": "BasicAuthenticationMode", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.BasicAuthenticationMode"
+                        }, 
+                        {
+                            "pr": "BasicEncryptionModes", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.BasicEncryptionModes"
+                        }, 
+                        {
+                            "pr": "IEEE11iAuthenticationMode", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.IEEE11iAuthenticationMode"
+                        }, 
+                        {
+                            "pr": "IEEE11iEncryptionModes", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.IEEE11iEncryptionModes"
+                        }, 
+                        {
+                            "pr": "RegulatoryDomain", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.RegulatoryDomain"
+                        }, 
+                        {
+                            "pr": "WPS.Enable", 
+                            "mFunction": "convert_enabled", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.WPS.Enable"
+                        }, 
+                        {
+                            "pr": "WPAAuthenticationMode", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.WPAAuthenticationMode"
+                        }, 
+                        {
+                            "pr": "WPAEncryptionModes", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.WPAEncryptionModes"
+                        }, 
+                        {
+                            "pr": "SSID", 
+                            "mFunction": "bold", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.SSID"
+                        }, 
+                        {
+                            "pr": "BSSID", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.BSSID"
+                        }, 
+                        {
+                            "pr": "Standard", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.Standard"
+                        }, 
+                        {
+                            "pr": "BeaconType", 
+                            "mFunction": "encryption_type", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.BeaconType"
+                        }, 
+                        {
+                            "pr": "MaxBitRate", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.MaxBitRate"
+                        }, 
+                        {
+                            "pr": "Channel", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.Channel"
+                        }, 
+                        {
+                            "pr": "TotalAssociations", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.TotalAssociations"
+                        }, 
+                        {
+                            "pr": "WMMEnable", 
+                            "mFunction": "convert_status", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.WMMEnable"
+                        }, 
+                        {
+                            "pr": "TotalBytesReceived", 
+                            "mFunction": "convert_traffic", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.TotalBytesReceived"
+                        }, 
+                        {
+                            "pr": "TotalBytesSent", 
+                            "mFunction": "convert_traffic", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.TotalBytesSent"
+                        }, 
+                        {
+                            "pr": "TotalPacketsReceived", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.TotalPacketsReceived"
+                        }, 
+                        {
+                            "pr": "TotalPacketsSent", 
+                            "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.TotalPacketsSent"
+                        }
+                    ], 
+                    "__type": "multi-section-widget", 
+                    "name": "WiFiSSIDs2.4", 
+                    "child_width": 3, 
+                    "__priority": -1, 
+                    "flow": "MainDiagFlow", 
+                    "selector": "InternetGatewayDevice.LANDevice.1.WLANConfiguration._x_.Status"
+                }
+            ], 
+            "__type": "support-portal-tab", 
+            "name": "WiFiDiag"
+        }, 
+        {
+            "pr": "Diagnose", 
+            "forbidView": [], 
+            "__type": "support-portal-tab", 
+            "name": "Diagnose", 
+            "elements": [
+                {
+                    "pr": "", 
+                    "forbidView": [], 
+                    "__type": "support-portal-tab-layout", 
+                    "name": "DiagnoseSubtabs", 
+                    "elements": [
+                        {
+                            "pr": "Ping Test", 
+                            "elements": [], 
+                            "defaultParams": {
+                                "Host": "devel.tr069.ru", 
+                                "DataBlockSize": 32, 
+                                "NumberOfRepetitions": 10
+                            }, 
+                            "name": "simplePingWidget", 
+                            "forbidView": [], 
+                            "__type": "simple-ping-widget"
+                        }
+                    ]
+                }
+            ]
+        }, 
+        {
+            "pr": "Device Log", 
+            "forbidView": [], 
+            "__type": "cpe-log-widget", 
+            "name": "Log"
+        }, 
+        {
+            "pr": "Server Log", 
+            "elements": [], 
+            "hide": [
+                "Opening Support Portal"
+            ], 
+            "name": "SrvLog", 
+            "roles": [
+                "Level1", 
+                "Level2", 
+                "Level3", 
+                "Manager"
+            ], 
+            "forbidView": [], 
+            "__type": "ax-sp-server-log"
+        }, 
+        {
+            "pr": "Action Log", 
+            "forbidView": [], 
+            "__type": "actionlog-new", 
+            "name": "ActionLog"
+        }, 
+        {
+            "pr": "CPE Config files", 
+            "forbidView": [
+                "Level1"
+            ], 
+            "__type": "support-portal-tab", 
+            "name": "CPEConfig", 
+            "elements": [
+                {
+                    "name": "CPE Configs", 
+                    "forbidView": [], 
+                    "actions": [
+                        "backup", 
+                        "diff", 
+                        "download", 
+                        "restore", 
+                        "change"
+                    ], 
+                    "__type": "cpe-config-files-widget", 
+                    "download_link": "/live/CPEManager/{0}/get_cfg?cfgid={1}", 
+                    "storage_id": "AXConfigStorage", 
+                    "port": 1
+                }
+            ]
+        }, 
+        {
+            "pr": "RPC", 
+            "forbidView": [
+                "Anonymous", 
+                "Level1", 
+                "Level2"
+            ], 
+            "__type": "get-rpc", 
+            "name": "RPC", 
+            "elements": []
+        }
+    ], 
+    "ontop": {
+        "elements": [
+            {
+                "width": "6", 
+                "elements": [
+                    {
+                        "pr": "Name of Your device", 
+                        "width": 12, 
+                        "elements": [
+                            {
+                                "pr": "Reboot", 
+                                "confirmation": "Reboot CPE?", 
+                                "lockMsg": "CPE is rebooting", 
+                                "lock": "True", 
+                                "rpc": "RebootAndWait", 
+                                "params": "Reboot by Axess Server", 
+                                "timeout": 600
+                            }, 
+                            {
+                                "pr": "FactoryReset", 
+                                "rpc": "FactoryReset", 
+                                "confirmation": "Reset CPE?"
+                            }
+                        ], 
+                        "link": "", 
+                        "name": "Image", 
+                        "images": [
+                            {
+                                "url": "", 
+                                "descr": "front view"
+                            }, 
+                            {
+                                "url": "", 
+                                "descr": "back view"
+                            }
+                        ], 
+                        "__type": "image-action-buttons-widget", 
+                        "__onhead": "True", 
+                        "height": "150"
+                    }, 
+                    {
+                        "width": 12, 
+                        "elements": [
+                            {
+                                "pr": "WIFI/LAN Status", 
+                                "elements": [
+                                    {
+                                        "pr": "Port Number", 
+                                        "elements": [
+                                            {
+                                                "mFunction": "bold", 
+                                                "name": "external.text.WiFi 2,4 1"
+                                            }, 
+                                            {
+                                                "mFunction": "bold", 
+                                                "name": "external.text.WiFi 2,4 2"
+                                            }, 
+                                            {
+                                                "mFunction": "bold", 
+                                                "name": "external.text.WiFi 2,4 3"
+                                            }, 
+                                            {
+                                                "mFunction": "bold", 
+                                                "name": "external.text.LAN 1"
+                                            }, 
+                                            {
+                                                "mFunction": "bold", 
+                                                "name": "external.text.LAN 2"
+                                            }, 
+                                            {
+                                                "mFunction": "bold", 
+                                                "name": "external.text.LAN 3"
+                                            }, 
+                                            {
+                                                "mFunction": "bold", 
+                                                "name": "external.text.LAN 4"
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "pr": "Enable", 
+                                        "elements": [
+                                            {
+                                                "mFunction": "convert_enabled", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Enable"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_enabled", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Enable"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_enabled", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Enable"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_enabled", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Enable"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_enabled", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Enable"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_enabled", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Enable"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_enabled", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Enable"
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "pr": "Port Status", 
+                                        "elements": [
+                                            {
+                                                "mFunction": "convert_status", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Status"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_status", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Status"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_status", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Status"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_status", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Status"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_status", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Status"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_status", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Status"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_status", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Status"
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "pr": "Port Speed", 
+                                        "elements": [
+                                            {
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.MaxBitRate"
+                                            }, 
+                                            {
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.MaxBitRate"
+                                            }, 
+                                            {
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.MaxBitRate"
+                                            }, 
+                                            {
+                                                "name": "external.text. "
+                                            }, 
+                                            {
+                                                "name": "external.text. "
+                                            }, 
+                                            {
+                                                "name": "external.text. "
+                                            }, 
+                                            {
+                                                "name": "external.text. "
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "pr": "SSID", 
+                                        "elements": [
+                                            {
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.SSID"
+                                            }, 
+                                            {
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.SSID"
+                                            }, 
+                                            {
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.SSID"
+                                            }, 
+                                            {
+                                                "name": "external.text. "
+                                            }, 
+                                            {
+                                                "name": "external.text. "
+                                            }, 
+                                            {
+                                                "name": "external.text. "
+                                            }, 
+                                            {
+                                                "name": "external.text. "
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "pr": "Bytes received", 
+                                        "elements": [
+                                            {
+                                                "mFunction": "convert_traffic", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalBytesReceived"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_traffic", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalBytesReceived"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_traffic", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.TotalBytesReceived"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_traffic", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BytesReceived"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_traffic", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.BytesReceived"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_traffic", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.BytesReceived"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_traffic", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.BytesReceived"
+                                            }
+                                        ]
+                                    }, 
+                                    {
+                                        "pr": "Bytes sent", 
+                                        "elements": [
+                                            {
+                                                "mFunction": "convert_traffic", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalBytesSent"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_traffic", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalBytesSent"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_traffic", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.TotalBytesSent"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_traffic", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BytesSent"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_traffic", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.BytesSent"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_traffic", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.BytesSent"
+                                            }, 
+                                            {
+                                                "mFunction": "convert_traffic", 
+                                                "name": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.BytesSent"
+                                            }
+                                        ]
+                                    }
+                                ], 
+                                "name": "LAN STATUS", 
+                                "__flow": "SmartIndexGPV", 
+                                "width": 12, 
+                                "__type": "section-table-widget"
+                            }
+                        ], 
+                        "__type": "support-portal-column-layout"
+                    }
+                ], 
+                "__type": "support-portal-column-layout"
+            }, 
+            {
+                "width": 6, 
+                "elements": [
+                    {
+                        "pr": "Service Overview", 
+                        "width": 12, 
+                        "elements": [
+                            {
+                                "pr": "ModelName", 
+                                "mFunction": "bold", 
+                                "name": "InternetGatewayDevice.DeviceInfo.ModelName"
+                            }, 
+                            {
+                                "pr": "Manufacturer", 
+                                "name": "InternetGatewayDevice.DeviceInfo.Manufacturer"
+                            }, 
+                            {
+                                "pr": "ProductClass", 
+                                "name": "InternetGatewayDevice.DeviceInfo.ProductClass"
+                            }, 
+                            {
+                                "pr": "UpTime", 
+                                "mFunction": "convert_uptime", 
+                                "name": "InternetGatewayDevice.DeviceInfo.UpTime"
+                            }, 
+                            {
+                                "pr": "HardwareVersion", 
+                                "name": "InternetGatewayDevice.DeviceInfo.HardwareVersion"
+                            }, 
+                            {
+                                "pr": "SoftwareVersion", 
+                                "name": "InternetGatewayDevice.DeviceInfo.SoftwareVersion"
+                            }, 
+                            {
+                                "pr": "SerialNumber", 
+                                "name": "InternetGatewayDevice.DeviceInfo.SerialNumber"
+                            }, 
+                            {
+                                "pr": "ip", 
+                                "mFunction": "bold", 
+                                "name": "cpe.ip"
+                            }, 
+                            {
+                                "pr": "cpeid", 
+                                "mFunction": "bold", 
+                                "name": "cpe.cpeid"
+                            }, 
+                            {
+                                "pr": "roles", 
+                                "name": "cpe.roles"
+                            }, 
+                            {
+                                "pr": "firstMsg", 
+                                "mFunction": "convert_timestamp", 
+                                "name": "cpe.firstMsg"
+                            }, 
+                            {
+                                "pr": "lastMsg", 
+                                "mFunction": "convert_timestamp", 
+                                "name": "cpe.lastMsg"
+                            }, 
+                            {
+                                "pr": "path", 
+                                "name": "cpe.path"
+                            }
+                        ], 
+                        "__type": "section-widget", 
+                        "name": "Services", 
+                        "flow": "MainDiagFlow", 
+                        "columns": 2, 
+                        "__onhead": "True"
+                    }
+                ], 
+                "__type": "support-portal-column-layout", 
+                "name": "Service Overview"
+            }
+        ], 
+        "__type": "support-portal-tab"
+    }
+}

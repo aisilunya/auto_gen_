@@ -1,0 +1,4 @@
+.idea
+venv/
+*.pyc
+result_config.json
