@@ -1,4 +1,6 @@
 from elements import get_widget_element
+import params
+import check_features
 
 """
 Configure widgets with elements for tabs
@@ -32,17 +34,18 @@ def get_widget(widget_name, cpe_dump):
         'wan_ip_widget_front': {
             "pr": "WAN IP Connections",
             "__type": "multi-section-table",
-            "selector": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Name",
+            "selector": "",
             # "__flow": "SmartGPVTwo",
             "parent_width": 12,
             "name": "IP WAN interfaces",
             "elements": get_widget_element('wan_ip_widget', cpe_dump)
         },
 
+
         'wan_ppp_widget_front': {
             "name": "PPP WAN interfaces",
             "pr": "WAN PPP Connections",
-            "selector": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.Name",
+            "selector": '',
             # "__flow": 'SmartGPV',
             "__type": "multi-section-widget",
             "parent_width": 12,
@@ -55,7 +58,7 @@ def get_widget(widget_name, cpe_dump):
             "parent_width": 12,
             "elements": get_widget_element('wan_pots_widget', cpe_dump),
             "name": "WANPOTSLinkConfig",
-            "selector": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice._x_.WANPOTSLinkConfig.Enable",
+            "selector": '',
             # "__flow": 'SmartGPV',
             "__type": "multi-section-table"
         },
@@ -63,7 +66,7 @@ def get_widget(widget_name, cpe_dump):
         'wan_dsl_link_widget_front': {
             "name": "WAN DSL Link Config",
             "pr": "WAN DSL Link Config",
-            "selector": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig._x_.Enable",
+            "selector": '',
             # "__flow": 'SmartGPV',
             "__type": "multi-section-widget",
             "parent_width": 12,
@@ -76,7 +79,7 @@ def get_widget(widget_name, cpe_dump):
             "pr": "WAN IP Statistics",
             "elements": get_widget_element('wan_ip_stats_widget', cpe_dump),
             "__type": "multi-section-widget",
-            "selector": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Name",
+            "selector": '',
             # "__flow": "SmartIndexGPV",
             "name": "WANIPStats",
             "parent_width": 6,
@@ -88,7 +91,7 @@ def get_widget(widget_name, cpe_dump):
             "pr": "WAN PPP Statistics",
             "elements": get_widget_element('wan_ppp_stats_widget', cpe_dump),
             "__type": "multi-section-widget",
-            "selector": "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.Enable",
+            "selector": '',
             # "__flow": "SmartIndexGPV",
             "name": "WANPPPStats",
             "parent_width": 6,
@@ -100,7 +103,7 @@ def get_widget(widget_name, cpe_dump):
             "pr": "WAN Common Statistics",
             "elements": get_widget_element('wan_common_stats_widget', cpe_dump),
             "__type": "multi-section-widget",
-            "selector": "InternetGatewayDevice.WANDevice._x_.WANCommonInterfaceConfig.TotalBytesReceived",
+            "selector": '',
             # "__flow": "SmartIndexGPV",
             "name": "WANCommonStats",
             "parent_width": 6,
@@ -111,7 +114,7 @@ def get_widget(widget_name, cpe_dump):
             "pr": "WAN Ethernet Interface Statistics",
             "elements": get_widget_element('wan_ethernet_stats_widget', cpe_dump),
             "__type": "multi-section-widget",
-            "selector": "InternetGatewayDevice.WANDevice._x_.WANEthernetInterfaceConfig.Enable",
+            "selector": '',
             # "__flow": "SmartIndexGPV",
             "name": "WANEhernetInterfaceStats",
             "parent_width": 6,
@@ -130,7 +133,7 @@ def get_widget(widget_name, cpe_dump):
             "name": "DHCPLAN",
             "__type": "multi-section-widget",
             "__flow": 'SmartGPV',
-            "selector": "InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPConditionalServingPool._x_.Enable",
+            "selector": '',
             "pr": "DHCP Serving Pool",
             "parent_width": 12,
             "child_width": 3,
@@ -145,7 +148,7 @@ def get_widget(widget_name, cpe_dump):
             "forbidView": [],
             "parent_width": 12,
             "child_width": 6,
-            "selector": "InternetGatewayDevice.WANDevice._x_.WANDSLInterfaceConfig.Status",
+            "selector": '',
             "elements": get_widget_element('wadsl_widget', cpe_dump)
         },
 
@@ -245,6 +248,56 @@ def get_widget(widget_name, cpe_dump):
                     ]}]}
 
     }
+    if len([item for item in params.wan_ip if check_features.isPart(item, cpe_dump)]) != 0:
+        widgets['wan_ip_widget_front']['selector'] = \
+        [item for item in params.wan_ip if check_features.isPart(item, cpe_dump)][0]
+
+    if len([item for item in params.wan_ppp if check_features.isPart(item, cpe_dump)]) != 0:
+        widgets['wan_ppp_widget_front']['selector'] = \
+        [item for item in params.wan_ppp if check_features.isPart(item, cpe_dump)][0]
+
+    if len([item for item in params.wan_pots if check_features.isPart(item, cpe_dump)]) != 0:
+        widgets['wan_pots_widget_front']['selector'] = \
+            [item for item in params.wan_pots if check_features.isPart(item, cpe_dump)][0]
+
+    if len([item for item in params.wadsl if check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)]) != 0:
+        widgets['wan_dsl_link_widget_front']['selector'] = \
+            [item for item in params.wadsl if
+             check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)][0]
+
+    if len([item for item in params.wan_ip_stats if check_features.isPart(item, cpe_dump)]) != 0:
+        widgets['wan_ip_stats_widget_front']['selector'] = \
+            [item for item in params.wan_ip_stats if check_features.isPart(item, cpe_dump)][0]
+
+    if len([item for item in params.wan_ppp_stats if check_features.isPart(item, cpe_dump)]) != 0:
+        widgets['wan_ppp_stats_widget_front']['selector'] = \
+            [item for item in params.wan_ppp_stats if check_features.isPart(item, cpe_dump)][0]
+
+    if len([item for item in params.wan_common_stats if check_features.isPart(item, cpe_dump)]) != 0:
+        widgets['wan_common_stats_widget_front']['selector'] = \
+            [item for item in params.wan_common_stats if check_features.isPart(item, cpe_dump)][0]
+
+    if len([item for item in params.wan_eth_stats if check_features.isPart(item, cpe_dump)]) != 0:
+        widgets['wan_ethernet_stats_widget_front']['selector'] = \
+            [item for item in params.wan_eth_stats if check_features.isPart(item, cpe_dump)][0]
+
+
+    if len([item for item in params.serving_pool if check_features.isPart(item, cpe_dump)]) != 0:
+        widgets['dhcp_widget_front']['selector'] = \
+            [item for item in params.serving_pool if check_features.isPart(item, cpe_dump)][0]
+
+    if len([item for item in params.wadsl if check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)]) != 0:
+        widgets['WAN_DSL_Info_Smart']['selector'] = \
+            [item for item in params.wadsl if
+             check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)][0]
+
+    if len([item for item in params.wadsl if check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)]) != 0:
+        widgets['WAN_DSL_Info_Smart']['selector'] = \
+            [item for item in params.wadsl if
+             check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)][0]
+
+
     widget = widgets[widget_name]
+
 
     return widget

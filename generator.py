@@ -8,7 +8,7 @@ if __name__ == '__main__':
 
     if len(sys.argv) == 1:
         dump_path = 'example.dump'
-        result_path = 'result_config'
+        result_path = 'result_config.json'
     elif len(sys.argv) == 2:
         raise BaseException("Script accepts exactly 2 arguments!")
     else:

@@ -1,6 +1,7 @@
 from elements import get_widget_element, getListWLAN
 from widgets import get_widget
 import check_features
+import params
 
 
 def getTabs(cpe_dump):
@@ -91,10 +92,10 @@ def getTabs(cpe_dump):
     }
     if len(get_widget_element('port_map_widget_PPP', cpe_dump)) != 0:
         nat_port_mapping["elements"] = get_widget_element('port_map_widget_PPP', cpe_dump)
-        nat_port_mapping["selector"] = "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping._x_.PortMappingDescription"
+        nat_port_mapping["selector"] = [item for item in params.port_mapPPP if check_features.isPart(item, cpe_dump)][0]
     if len(get_widget_element('port_map_widget_IP', cpe_dump)) != 0:
         nat_port_mapping["elements"] = get_widget_element('port_map_widget_IP', cpe_dump)
-        nat_port_mapping["selector"] = "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.PortMapping._x_.PortMappingDescription"
+        nat_port_mapping["selector"] = [item for item in params.port_mapIP if check_features.isPart(item, cpe_dump)][0]
 
 
 
@@ -119,12 +120,14 @@ def getTabs(cpe_dump):
                 "pr": "LAN port status",
                 "parent_width": 12,
                 "child_width": 3,
-                "selector": "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.Name",
+                "selector": '',
                 "elements": get_widget_element('lan_ports_widget', cpe_dump)
             }
 
         ]
     }
+    if len([item for item in params.lan_ports if check_features.isPart(item, cpe_dump)]) != 0:
+        lan_ports_information["elements"][0]["selector"] = [item for item in params.lan_ports if check_features.isPart(item, cpe_dump)][0]
 
     wifi_information = {
         "name": "WiFiDiag",
@@ -152,12 +155,16 @@ def getTabs(cpe_dump):
                 "pr": "Forwarding Info",
                 "forbidView": [],
                 "__priority": -1,
-                "selector": "InternetGatewayDevice.Layer3Forwarding.Forwarding._x_.Enable",
+                "selector": '',
                 "parent_width": 12,
                 "elements": get_widget_element('trace_roat_widget', cpe_dump)
             }
         ]
     }
+    if len([item for item in params.trace_roat if check_features.isPart(item, cpe_dump)]) != 0:
+        port_forwarding["elements"][0]["selector"] = [item for item in params.trace_roat if check_features.isPart(item, cpe_dump)][0]
+
+
 
     userinterface = {
         "pr": "UserInterface",
@@ -375,7 +382,7 @@ def getTabs(cpe_dump):
                 })
 
     if get_widget_element('wifi5_widget', cpe_dump) != []:
-        if len(check_features.getListWLAN('5')) == 1:
+        if len(check_features.getListWLAN('5', cpe_dump)) == 1:
             if {
                 "__type": "section-widget",
                 "name": "WiFiSSIDs5",

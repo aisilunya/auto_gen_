@@ -367,9 +367,9 @@ def get_wlan(type_wlan, cpe_dump):
         if k.endswith('PossibleChannels'):
             if v == ' 1,2,3,4,5,6,7,8,9,10,11,12,13' or v == ' 1-13':
                 new_list = []
-                if len(getListWLAN('2.4')) == 1:
+                if len(getListWLAN('2.4', cpe_dump)) == 1:
                     for i in [item for item in params.wifi if isPart(item, cpe_dump)]:
-                        i = i.replace("_x_", getListWLAN('2.4')[0])
+                        i = i.replace("_x_", getListWLAN('2.4', cpe_dump)[0])
                         new_list.append(i)
                     wifi2_widget = addWlanWidget('wifi2_widget', new_list)
 
@@ -377,9 +377,10 @@ def get_wlan(type_wlan, cpe_dump):
                     wifi2_widget = addWlanWidget('wifi2_widget', wifi_list)
             else:
                 new_list = []
-                if len(getListWLAN('5')) == 1:
+
+                if len(getListWLAN('5', cpe_dump)) == 1:
                     for i in [item for item in params.wifi if isPart(item, cpe_dump)]:
-                        i = i.replace("_x_", getListWLAN('5')[0])
+                        i = i.replace("_x_", getListWLAN('5', cpe_dump)[0])
                         new_list.append(i)
                     wifi5_widget = addWlanWidget('wifi5_widget', new_list)
 
@@ -391,7 +392,7 @@ def get_wlan(type_wlan, cpe_dump):
                 new_list = []
                 if len(getListWLAN('2.4', cpe_dump)) == 1:
                     for i in [item for item in params.wifi if isPart(item, cpe_dump)]:
-                        i = i.replace("_x_", getListWLAN('2.4')[0])
+                        i = i.replace("_x_", getListWLAN('2.4', cpe_dump)[0])
                         new_list.append(i)
                     wifi2_widget = addWlanWidget('wifi2_widget', new_list)
 
@@ -401,12 +402,13 @@ def get_wlan(type_wlan, cpe_dump):
                 new_list = []
                 if len(getListWLAN('5', cpe_dump)) == 1:
                     for i in [item for item in params.wifi if isPart(item, cpe_dump)]:
-                        i = i.replace("_x_", getListWLAN('5')[0])
+                        i = i.replace("_x_", getListWLAN('5', cpe_dump)[0])
                         new_list.append(i)
                     wifi5_widget = addWlanWidget('wifi5_widget', new_list)
 
                 else:
                     wifi5_widget = addWlanWidget('wifi5_widget', new_list)
+
     if type_wlan == '2':
         return wifi2_widget
     elif type_wlan == '5':

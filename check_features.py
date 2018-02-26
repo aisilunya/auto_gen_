@@ -127,18 +127,22 @@ def getListWLAN(type, cpe_dump):
         if k.endswith('PossibleChannels'):
             if v == ' 1,2,3,4,5,6,7,8,9,10,11,12,13' or v == ' 1-13':
                 index2 = k.split('.')[-2]
-                wlan2_4.append(index2)
+                if index2 not in wlan2_4:
+                    wlan2_4.append(index2)
             else:
                 index5 = k.split('.')[-2]
-                wlan5.append(index5)
+                if index5 not in wlan5:
+                    wlan5.append(index5)
         elif k.endswith('Channel'):
             if v in [' 1', ' 2', ' 3', ' 4', ' 5', ' 6', ' 7', ' 8', ' 9', ' 10', ' 11', ' 12', ' 13'] \
                     or v in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]:
                 index2 = k.split('.')[-2]
-                wlan2_4.append(index2)
+                if index2 not in wlan2_4:
+                    wlan2_4.append(index2)
             else:
                 index5 = k.split('.')[-2]
-                wlan5.append(index5)
+                if index5 not in wlan5:
+                    wlan5.append(index5)
     if type == '2.4':
         return wlan2_4
     elif type == '5':
