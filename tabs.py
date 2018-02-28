@@ -85,8 +85,7 @@ def getTabs(cpe_dump):
         "__type": "multi-section-table",
         "parent_width": 12,
         "elements": [],
-        # "createFlow": "CreatePortMap_DLINK_DIR300a",
-        # "__exploration_flow": "multi_section_exploration_two",
+        "createFlow": "CreatePortMap_Sample",
         "__flow": "SmartGPV",
 
     }
@@ -152,6 +151,7 @@ def getTabs(cpe_dump):
             {
                 "__type": "multi-section-table",
                 "name": "Forwarding Infos",
+                "createFlow": "ROUTINGTABLE_CREATE_Sample",
                 "pr": "Forwarding Info",
                 "forbidView": [],
                 "__priority": -1,
@@ -345,7 +345,6 @@ def getTabs(cpe_dump):
                 "__priority": -1,
                 "parent_width": 12,
                 "child_width": 3,
-
                 "elements": get_widget_element('wifi2_widget', cpe_dump)} not in wifi_information["elements"]:
                 wifi_information["elements"].append({
                     "__type": "section-widget",
@@ -355,7 +354,6 @@ def getTabs(cpe_dump):
                     "__priority": -1,
                     "parent_width": 12,
                     "child_width": 3,
-
                     "elements": get_widget_element('wifi2_widget', cpe_dump)
                 })
         elif len(check_features.getListWLAN('2.4', cpe_dump)) > 1:
@@ -391,7 +389,6 @@ def getTabs(cpe_dump):
                 "__priority": -1,
                 "parent_width": 12,
                 "child_width": 3,
-
                 "elements": get_widget_element('wifi5_widget', cpe_dump)} not in wifi_information["elements"]:
                 wifi_information["elements"].append(
                     {
@@ -402,7 +399,6 @@ def getTabs(cpe_dump):
                         "__priority": -1,
                         "parent_width": 12,
                         "child_width": 3,
-
                         "elements": get_widget_element('wifi5_widget', cpe_dump)
                     }
                 )

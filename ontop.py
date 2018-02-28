@@ -43,7 +43,7 @@ def getOntop(cpe_dump):
 
     enable = {
         "pr": "Enable",
-        # "changeFlow": "LanWifi_SET_DLINK_DIR300",
+        "changeFlow": "LanWifi_SET_Sample",
         "elements": []
     }
 
@@ -53,15 +53,14 @@ def getOntop(cpe_dump):
 
     duplex_mode = {
         "pr": "Duplex Mode",
-        # "changeFlow": "DUPLEX_MODE_SET_DLINK_DIR300",
+        "changeFlow": "DUPLEX_MODE_SET_Sample",
         "elements": []
     }
 
     port_speeds = {
         "pr": "Port Speed",
-        # "changeFlow": "PORT_SPEED_SET_DLINK_DIR300",
-
-        "elements": []
+        "elements": [],
+        "changeFlow": ""
     }
 
     ssid = {
@@ -153,6 +152,10 @@ def getOntop(cpe_dump):
     fillParameter(duplex_mode["elements"], ".DuplexMode")
     fillParameter(port_speeds["elements"], ".MaxBitRate")
     fillParameter(ssid['elements'], ".SSID")
+
+    if check_features.isMaxBitRateInLEIC(fillParameter(port_speeds["elements"], ".MaxBitRate")):
+        port_speeds["changeFlow"] = 'PORT_SPEED_SET_Sample'
+
 
     if check_features.isConsistPartly4("InternetGatewayDevice.LANDevice.1.WLANConfiguration", cpe_dump):
         for item in cpe_dump:

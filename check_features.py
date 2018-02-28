@@ -148,3 +148,13 @@ def getListWLAN(type, cpe_dump):
     elif type == '5':
         return wlan5
 
+def isMaxBitRateInLEIC(found_list):
+    flag = False
+    for i in found_list:
+        for k,v in i.items():
+            if 'LANEthernetInterfaceConfig' in v:
+                flag = True
+    return flag
+
+
+

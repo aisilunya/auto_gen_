@@ -80,7 +80,7 @@ def get_widget(widget_name, cpe_dump):
             "elements": get_widget_element('wan_ip_stats_widget', cpe_dump),
             "__type": "multi-section-widget",
             "selector": '',
-            # "__flow": "SmartIndexGPV",
+
             "name": "WANIPStats",
             "parent_width": 6,
             "columns": 1,
@@ -92,7 +92,7 @@ def get_widget(widget_name, cpe_dump):
             "elements": get_widget_element('wan_ppp_stats_widget', cpe_dump),
             "__type": "multi-section-widget",
             "selector": '',
-            # "__flow": "SmartIndexGPV",
+
             "name": "WANPPPStats",
             "parent_width": 6,
             "columns": 1,
@@ -104,7 +104,7 @@ def get_widget(widget_name, cpe_dump):
             "elements": get_widget_element('wan_common_stats_widget', cpe_dump),
             "__type": "multi-section-widget",
             "selector": '',
-            # "__flow": "SmartIndexGPV",
+
             "name": "WANCommonStats",
             "parent_width": 6,
             "child_width": 12,
@@ -115,7 +115,6 @@ def get_widget(widget_name, cpe_dump):
             "elements": get_widget_element('wan_ethernet_stats_widget', cpe_dump),
             "__type": "multi-section-widget",
             "selector": '',
-            # "__flow": "SmartIndexGPV",
             "name": "WANEhernetInterfaceStats",
             "parent_width": 6,
             "child_width": 12,
@@ -260,7 +259,8 @@ def get_widget(widget_name, cpe_dump):
         widgets['wan_pots_widget_front']['selector'] = \
             [item for item in params.wan_pots if check_features.isPart(item, cpe_dump)][0]
 
-    if len([item for item in params.wadsl if check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)]) != 0:
+    if len([item for item in params.wadsl if check_features.isPart(item, cpe_dump)\
+                                             or check_features.isPartSmartIndex(item, cpe_dump)]) != 0:
         widgets['wan_dsl_link_widget_front']['selector'] = \
             [item for item in params.wadsl if
              check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)][0]
@@ -286,12 +286,14 @@ def get_widget(widget_name, cpe_dump):
         widgets['dhcp_widget_front']['selector'] = \
             [item for item in params.serving_pool if check_features.isPart(item, cpe_dump)][0]
 
-    if len([item for item in params.wadsl if check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)]) != 0:
+    if len([item for item in params.wadsl if check_features.isPart(item, cpe_dump)\
+                                             or check_features.isPartSmartIndex(item, cpe_dump)]) != 0:
         widgets['WAN_DSL_Info_Smart']['selector'] = \
             [item for item in params.wadsl if
              check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)][0]
 
-    if len([item for item in params.wadsl if check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)]) != 0:
+    if len([item for item in params.wadsl if check_features.isPart(item, cpe_dump)\
+                                             or check_features.isPartSmartIndex(item, cpe_dump)]) != 0:
         widgets['WAN_DSL_Info_Smart']['selector'] = \
             [item for item in params.wadsl if
              check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)][0]

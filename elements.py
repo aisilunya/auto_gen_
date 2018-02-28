@@ -12,7 +12,8 @@ def addWlanWidget(type_wlan, widget_list):
                         {"name": i, "pr": ".".join(i.split(".")[-2::]), "mFunction": "convert_enabled"})
             elif i.endswith(".Enable"):
                 if {"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"} not in wifi2_element:
-                    wifi2_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
+                    wifi2_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled", \
+                                          "changeFlow":"WLAN_Settings_Sample_for_2gh"})
             elif i.endswith(".Status"):
                 if {"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"} not in wifi2_element:
                     wifi2_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"})
@@ -45,7 +46,8 @@ def addWlanWidget(type_wlan, widget_list):
                         {"name": i, "pr": ".".join(i.split(".")[-2::]), "mFunction": "convert_enabled"})
             elif i.endswith(".Enable"):
                 if {"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"} not in wifi2_element:
-                    wifi2_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
+                    wifi2_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled",\
+                                          "changeFlow":"WLAN_Settings_Sample_for_5gh"})
             elif i.endswith(".Status"):
                 if {"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"} not in wifi2_element:
                     wifi2_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"})
@@ -169,7 +171,8 @@ def get_time(cpe_dump):
 
     for i in [item for item in params.time if isConsist(item, cpe_dump)]:
         if i == "InternetGatewayDevice.Time.Enable":
-            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
+            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled", \
+                            "changeFlow": "TIME_SETTINGS_SET_Sample"})
         elif i == "InternetGatewayDevice.Time.CurrentLocalTime":
             element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_datetime"})
         elif i == "InternetGatewayDevice.Time.Status":
@@ -186,13 +189,15 @@ def get_wan_ip(cpe_dump):
         if i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Name":
             element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "bold_dlink_dir300"})
         elif i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.DNSEnabled":
-            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
+            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled", "changeFlow": "ENABLE_DNS_IP_Sample"})
         elif i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Enable":
             element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
         elif i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.NATEnabled":
-            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
+            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled", "changeFlow": "ENABLE_IP_NAT_Sample"})
         elif i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.Uptime":
             element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_uptime"})
+        elif i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection._x_.DNSServers":
+            element.append({"name": i, "pr": i.split(".")[-1], "changeFlow": "DNS_SERVERS_IP_Sample"})
         else:
             element.append({"name": i, "pr": i.split(".")[-1]})
 
@@ -204,16 +209,22 @@ def get_wan_ppp(cpe_dump):
     wan_ppp_gen = [item for item in params.wan_ppp if isPart(item, cpe_dump)]
 
     for i in wan_ppp_gen:
-        if i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice._x_.WANPPPConnection.1.Status":
+        if i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.Status":
             element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"})
-        elif i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice._x_.WANPPPConnection.1.DNSEnabled":
+        elif i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.DNSEnabled":
+            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled",\
+                            "changeFlow": "ENABLE_PPPoE_DNS_Sample"})
+        elif i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.Enable":
             element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
-        elif i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice._x_.WANPPPConnection.1.Enable":
-            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
-        elif i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice._x_.WANPPPConnection.1.NATEnabled":
-            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
-        elif i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice._x_.WANPPPConnection.1.Uptime":
+        elif i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.NATEnabled":
+            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled",\
+                            "changeFlow": "ENABLE_PPPoE_NAT_Sample"})
+        elif i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.Uptime":
             element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_uptime"})
+
+        elif i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.DNSServers":
+            element.append({"name": i, "pr": i.split(".")[-1], "changeFlow": "DNS_SERVERS_PPP_Sample"})
+
         else:
             element.append({"name": i, "pr": i.split(".")[-1]})
 
@@ -278,6 +289,10 @@ def get_wan_common_stats(cpe_dump):
         if i == "InternetGatewayDevice.WANDevice._x_.WANCommonInterfaceConfig.TotalBytesReceived" \
                 or i == "InternetGatewayDevice.WANDevice._x_.WANCommonInterfaceConfig.TotalBytesSent":
             element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_traffic"})
+        elif i == 'InternetGatewayDevice.WANDevice._x_.WANCommonInterfaceConfig.EnabledForInternet':
+            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
+        elif i.endswith('.PhysicalLinkStatus'):
+            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"})
         else:
             element.append({"name": i, "pr": i.split(".")[-1]})
     return element
@@ -302,7 +317,8 @@ def get_port_map(cpe_dump):
     element = []
     for i in [item for item in params.port_mapPPP if isPart(item, cpe_dump)]:
         if i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping._x_.PortMappingEnabled":
-            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
+            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled",\
+                            "changeFlow": "Port_Mapping_PPPoe_Sample", "deleteFlow": "PortForward_del_IPoE_Sample"})
         else:
             element.append({"name": i, "pr": i.split(".")[-1]})
     return element
@@ -313,7 +329,8 @@ def get_port_map_ip(cpe_dump):
     port_mapIP_gen = [item for item in params.port_mapIP if isPart(item, cpe_dump)]
     for i in port_mapIP_gen:
         if i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.PortMapping._x_.PortMappingEnabled":
-            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
+            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled",\
+                            "changeFlow": "Port_Mapping_IPoE_Sample", "deleteFlow": "PortForward_del_IPoE_Sample"})
         else:
             element.append({"name": i, "pr": i.split(".")[-1]})
     return element
@@ -323,7 +340,7 @@ def get_nat_info(cpe_dump):
     element = []
     for i in [item for item in params.nat_info if isConsist(item, cpe_dump)]:
         if i == "InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPServerEnable":
-            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
+            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled", "changeFlow": "DHCP_Sample"})
         elif i == "InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPLeaseTime":
             element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_uptime"})
         else:
@@ -336,7 +353,7 @@ def get_serving_pool(cpe_dump):
     serving_pool_gen = [item for item in params.serving_pool if isPart(item, cpe_dump)]
     for i in serving_pool_gen:
         if i == "InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPConditionalServingPool._x_.Enable":
-            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
+            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled", "changeFlow": "SERVING_POOL_Sample"})
         else:
             element.append({"name": i, "pr": i.split(".")[-1]})
     return element
@@ -349,10 +366,16 @@ def get_lan_ports(cpe_dump):
         if i == "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.Status":
             element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"})
         elif i == "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.Enable":
-            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
+            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled", "changeFlow": "LAN_Settings_Sample"})
         elif i == "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.Stats.BytesReceived" \
                 or i == "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.Stats.BytesSent":
             element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_traffic"})
+        elif i == "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.DuplexMode" \
+                or i == "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.DuplexMode":
+            element.append({"name": i, "pr": i.split(".")[-1], "changeFlow": "CHANGE_DUPLEX_MODE_Sample"})
+        elif i == "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.MaxBitRate" \
+                or i == "InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig._x_.MaxBitRate":
+            element.append({"name": i, "pr": i.split(".")[-1], "changeFlow": "CHANGE_LAN_SPEED_Sample"})
         else:
             element.append({"name": i, "pr": i.split(".")[-1]})
     return element
@@ -449,7 +472,8 @@ def get_trace_roat(cpe_dump):
 
     for i in [item for item in params.trace_roat if isPart(item, cpe_dump)]:
         if i == "InternetGatewayDevice.Layer3Forwarding.Forwarding._x_.Status":
-            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"})
+            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status",\
+                            "changeFlow": "ROUTINGTABLE_SET_Sample", "deleteFlow": "ROUTINGTABLE_DEL_Sample"})
         else:
             element.append({"name": i, "pr": i.split(".")[-1]})
     return element
@@ -500,3 +524,4 @@ def get_widget_element(element_name, cpe_dump):
     element = elements[element_name](cpe_dump)
 
     return element
+

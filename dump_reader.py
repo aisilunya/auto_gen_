@@ -8,7 +8,7 @@ def is_valid(cpe_dump):
     else:
         return False
 
-def load_dump(dump_path='example.dump'):
+def load_dump(dump_path):
     parameters = []
     with open(dump_path) as myfile:
         read_data = myfile.read()
