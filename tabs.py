@@ -90,8 +90,15 @@ def getTabs(cpe_dump):
 
     }
     if len(get_widget_element('port_map_widget_PPP', cpe_dump)) != 0:
-        nat_port_mapping["elements"] = get_widget_element('port_map_widget_PPP', cpe_dump)
-        nat_port_mapping["selector"] = [item for item in params.port_mapPPP if check_features.isPart(item, cpe_dump)][0]
+        if len([item for item in params.port_mapPPP if check_features.isPart(item, cpe_dump)]) != 0:
+            nat_port_mapping["elements"] = get_widget_element('port_map_widget_PPP', cpe_dump)
+            nat_port_mapping["selector"] = [item for item in params.port_mapPPP if check_features.isPart(item, cpe_dump)][0]
+
+    if len(get_widget_element('port_map_widget_PPP', cpe_dump)) != 0:
+        if len([item for item in params.port_mapPPP_y if check_features.isPart(item, cpe_dump)]) != 0:
+            nat_port_mapping["elements"] = get_widget_element('port_map_widget_PPP', cpe_dump)
+            nat_port_mapping["selector"] = [item for item in params.port_mapPPP_y if check_features.isPart(item, cpe_dump)][0]
+
     if len(get_widget_element('port_map_widget_IP', cpe_dump)) != 0:
         nat_port_mapping["elements"] = get_widget_element('port_map_widget_IP', cpe_dump)
         nat_port_mapping["selector"] = [item for item in params.port_mapIP if check_features.isPart(item, cpe_dump)][0]

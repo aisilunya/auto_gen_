@@ -170,9 +170,10 @@ def get_time(cpe_dump):
     element = []
 
     for i in [item for item in params.time if isConsist(item, cpe_dump)]:
-        if i == "InternetGatewayDevice.Time.Enable":
-            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled", \
-                            "changeFlow": "TIME_SETTINGS_SET_Sample"})
+        if {"pr": 'Settings', "changeFlow": "TIME_SETTINGS_SET_Sample"} not in element:
+            element.append({"pr": 'Settings', "changeFlow": "TIME_SETTINGS_SET_Sample"})
+        elif i == "InternetGatewayDevice.Time.Enable":
+            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"})
         elif i == "InternetGatewayDevice.Time.CurrentLocalTime":
             element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_datetime"})
         elif i == "InternetGatewayDevice.Time.Status":
@@ -315,12 +316,20 @@ def get_wan_eth_stats(cpe_dump):
 
 def get_port_map(cpe_dump):
     element = []
-    for i in [item for item in params.port_mapPPP if isPart(item, cpe_dump)]:
-        if i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping._x_.PortMappingEnabled":
-            element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled",\
+    if len([item for item in params.port_mapPPP if isPart(item, cpe_dump)]) != 0:
+        for i in [item for item in params.port_mapPPP if isPart(item, cpe_dump)]:
+            if i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping._x_.PortMappingEnabled":
+                element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled",\
                             "changeFlow": "Port_Mapping_PPPoe_Sample", "deleteFlow": "PortForward_del_IPoE_Sample"})
-        else:
-            element.append({"name": i, "pr": i.split(".")[-1]})
+            else:
+                element.append({"name": i, "pr": i.split(".")[-1]})
+    if len([item for item in params.port_mapPPP_y if isPart(item, cpe_dump)]) != 0:
+        for i in [item for item in params.port_mapPPP_y if isPart(item, cpe_dump)]:
+            if i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.PortMapping.1.PortMappingEnabled":
+                element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled",\
+                            "changeFlow": "Port_Mapping_PPPoe_Sample", "deleteFlow": "PortForward_del_IPoE_Sample"})
+            else:
+                element.append({"name": i, "pr": i.split(".")[-1]})
     return element
 
 

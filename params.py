@@ -160,6 +160,13 @@ port_mapPPP = ["InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPCo
             "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping._x_.InternalClient",
             "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping._x_.InternalPort"]
 
+port_mapPPP_y = ["InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.PortMapping.1.PortMappingEnabled",
+            "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.PortMapping.1.PortMappingDescription",
+            "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.PortMapping.1.PortMappingProtocol",
+            "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.PortMapping.1.ExternalPort",
+            "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.PortMapping.1.InternalClient",
+            "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.PortMapping.1.InternalPort"]
+
 port_mapIP = ["InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.PortMapping._x_.PortMappingEnabled",
             "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.PortMapping._x_.PortMappingDescription",
             "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnection.1.PortMapping._x_.PortMappingProtocol",

@@ -288,15 +288,28 @@ def get_widget(widget_name, cpe_dump):
 
     if len([item for item in params.wadsl if check_features.isPart(item, cpe_dump)\
                                              or check_features.isPartSmartIndex(item, cpe_dump)]) != 0:
-        widgets['WAN_DSL_Info_Smart']['selector'] = \
+        widgets['wadsl_widget_front']['selector'] = \
             [item for item in params.wadsl if
              check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)][0]
 
     if len([item for item in params.wadsl if check_features.isPart(item, cpe_dump)\
                                              or check_features.isPartSmartIndex(item, cpe_dump)]) != 0:
-        widgets['WAN_DSL_Info_Smart']['selector'] = \
+        widgets['wadsl_widget_front']['selector'] = \
             [item for item in params.wadsl if
              check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)][0]
+
+    if len([item for item in params.dsl_stats if check_features.isPart(item, cpe_dump)\
+                                             or check_features.isPartSmartIndex(item, cpe_dump)]) != 0:
+        widgets['dsl_stats_widget_front']['selector'] = \
+            [item for item in params.dsl_stats if
+             check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)][0]
+
+    if len([item for item in params.DSL_CD_Stats if check_features.isPart(item, cpe_dump)\
+                                             or check_features.isPartSmartIndex(item, cpe_dump)]) != 0:
+        widgets['DSL_CD_Stats_widget_front']['selector'] = \
+            [item for item in params.DSL_CD_Stats if
+             check_features.isPart(item, cpe_dump) or check_features.isPartSmartIndex(item, cpe_dump)][0]
+
 
 
     widget = widgets[widget_name]
