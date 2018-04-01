@@ -38,37 +38,38 @@ def addWlanWidget(type_wlan, widget_list):
         return wifi2_element
 
     if type_wlan == 'wifi5_widget':
-        wifi2_element = []
+        wifi5_element = []
         for i in widget_list:
             if ".".join(i.split(".")[-2::]) == "WPS.Enable":
-                if {"name": i, "pr": ".".join(i.split(".")[-2::]), "mFunction": "convert_enabled"} not in wifi2_element:
-                    wifi2_element.append(
+                if {"name": i, "pr": ".".join(i.split(".")[-2::]), "mFunction": "convert_enabled"} not in wifi5_element:
+                    wifi5_element.append(
                         {"name": i, "pr": ".".join(i.split(".")[-2::]), "mFunction": "convert_enabled"})
             elif i.endswith(".Enable"):
-                if {"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"} not in wifi2_element:
-                    wifi2_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled",\
+                if {"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled"} not in wifi5_element:
+                    wifi5_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled",\
                                           "changeFlow":"WLAN_Settings_Sample_for_5gh"})
             elif i.endswith(".Status"):
-                if {"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"} not in wifi2_element:
-                    wifi2_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"})
+                if {"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"} not in wifi5_element:
+                    wifi5_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"})
             elif i.endswith(".WMMEnable"):
-                if {"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"} not in wifi2_element:
-                    wifi2_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"})
+                if {"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"} not in wifi5_element:
+                    wifi5_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_status"})
             elif i.endswith(".TotalBytesReceived") \
                     or i.endswith(".TotalBytesSent"):
-                if {"name": i, "pr": i.split(".")[-1], "mFunction": "convert_traffic"} not in wifi2_element:
-                    wifi2_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_traffic"})
+                if {"name": i, "pr": i.split(".")[-1], "mFunction": "convert_traffic"} not in wifi5_element:
+                    wifi5_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_traffic"})
             elif i.endswith(".SSID"):
-                if {"name": i, "pr": i.split(".")[-1], "mFunction": "bold"} not in wifi2_element:
-                    wifi2_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "bold"})
+                if {"name": i, "pr": i.split(".")[-1], "mFunction": "bold"} not in wifi5_element:
+                    wifi5_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "bold"})
             elif i.endswith('.BeaconType'):
                 if ({"name": i, "pr": i.split(".")[-1], "mFunction": "encryption_type"}) \
-                        not in wifi2_element:
-                    wifi2_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "encryption_type"})
+                        not in wifi5_element:
+                    wifi5_element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "encryption_type"})
             else:
-                if {"name": i, "pr": i.split(".")[-1]} not in wifi2_element:
-                    wifi2_element.append({"name": i, "pr": i.split(".")[-1]})
-        return wifi2_element
+                if {"name": i, "pr": i.split(".")[-1]} not in wifi5_element:
+                    wifi5_element.append({"name": i, "pr": i.split(".")[-1]})
+
+        return wifi5_element
 
 
 
@@ -323,13 +324,7 @@ def get_port_map(cpe_dump):
                             "changeFlow": "Port_Mapping_PPPoe_Sample", "deleteFlow": "PortForward_del_IPoE_Sample"})
             else:
                 element.append({"name": i, "pr": i.split(".")[-1]})
-    if len([item for item in params.port_mapPPP_y if isPart(item, cpe_dump)]) != 0:
-        for i in [item for item in params.port_mapPPP_y if isPart(item, cpe_dump)]:
-            if i == "InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection._x_.PortMapping.1.PortMappingEnabled":
-                element.append({"name": i, "pr": i.split(".")[-1], "mFunction": "convert_enabled",\
-                            "changeFlow": "Port_Mapping_PPPoe_Sample", "deleteFlow": "PortForward_del_IPoE_Sample"})
-            else:
-                element.append({"name": i, "pr": i.split(".")[-1]})
+
     return element
 
 
@@ -397,7 +392,7 @@ def get_wlan(type_wlan, cpe_dump):
 
     for k, v in cpe_dump.items():
         if k.endswith('PossibleChannels'):
-            if v == ' 1,2,3,4,5,6,7,8,9,10,11,12,13' or v == ' 1-13':
+            if v == ' 1,2,3,4,5,6,7,8,9,10,11,12,13' or v == ' 1-13' or v == '1,2,3,4,5,6,7,8,9,10,11,12,13' or v == '1-13':
                 new_list = []
                 if len(getListWLAN('2.4', cpe_dump)) == 1:
                     for i in [item for item in params.wifi if isPart(item, cpe_dump)]:
@@ -408,6 +403,7 @@ def get_wlan(type_wlan, cpe_dump):
                 else:
                     wifi2_widget = addWlanWidget('wifi2_widget', wifi_list)
             else:
+
                 new_list = []
 
                 if len(getListWLAN('5', cpe_dump)) == 1:
@@ -418,6 +414,8 @@ def get_wlan(type_wlan, cpe_dump):
 
                 else:
                     wifi5_widget = addWlanWidget('wifi5_widget', wifi_list)
+            break
+
         elif k.endswith('.Channel'):
             if v in [' 1', ' 2', ' 3', ' 4', ' 5', ' 6', ' 7', ' 8', ' 9', ' 10', ' 11', ' 12', ' 13'] \
                     or v in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]:
@@ -440,6 +438,9 @@ def get_wlan(type_wlan, cpe_dump):
 
                 else:
                     wifi5_widget = addWlanWidget('wifi5_widget', new_list)
+
+
+
 
     if type_wlan == '2':
         return wifi2_widget

@@ -143,6 +143,7 @@ def getListWLAN(type, cpe_dump):
                 index5 = k.split('.')[-2]
                 if index5 not in wlan5:
                     wlan5.append(index5)
+
     if type == '2.4':
         return wlan2_4
     elif type == '5':

@@ -1,216 +1,1760 @@
-
-InternetGatewayDevice.DeviceInfo.Description : ZXDSL 831AII
-InternetGatewayDevice.DeviceInfo.HardwareVersion : 96332L-2M-8M
-InternetGatewayDevice.DeviceInfo.Manufacturer : ZTE
-InternetGatewayDevice.DeviceInfo.ManufacturerOUI : 002293
-InternetGatewayDevice.DeviceInfo.ModelName : ZXDSL 831AII
-InternetGatewayDevice.DeviceInfo.SerialNumber : 002293a7c9dc
-InternetGatewayDevice.DeviceInfo.SoftwareVersion : ZXDSL 831AIIV4.2.0c_Z29_AM
-InternetGatewayDevice.DeviceInfo.UpTime : 2930
-InternetGatewayDevice.ManagementServer.PeriodicInformInterval : 3600
+InternetGatewayDevice.Capabilities.PerformanceDiagnostic.DownloadTransports : HTTP,FTP
+InternetGatewayDevice.Capabilities.PerformanceDiagnostic.UploadTransports : HTTP,FTP
+InternetGatewayDevice.DeviceInfo.AdditionalHardwareVersion : Q1
+InternetGatewayDevice.DeviceInfo.AdditionalSoftwareVersion : 3.1.0.597
+InternetGatewayDevice.DeviceInfo.Description : Wi-Fi Router
+InternetGatewayDevice.DeviceInfo.DeviceLog :
+InternetGatewayDevice.DeviceInfo.EnabledOptions :
+InternetGatewayDevice.DeviceInfo.FirstUseDate : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.DeviceInfo.HardwareVersion : Q1
+InternetGatewayDevice.DeviceInfo.Manufacturer : QTECH
+InternetGatewayDevice.DeviceInfo.ManufacturerOUI : 001fce
+InternetGatewayDevice.DeviceInfo.MemoryStatus.Free : 18380
+InternetGatewayDevice.DeviceInfo.MemoryStatus.Total : 47312
+InternetGatewayDevice.DeviceInfo.ModelName : QBR-1041WU-AC2
+InternetGatewayDevice.DeviceInfo.ProcessStatus.CPUUsage : 31
+InternetGatewayDevice.DeviceInfo.ProcessStatus.ProcessNumberOfEntries : 40
+InternetGatewayDevice.DeviceInfo.ProductClass : QTECH_ROUTER
+InternetGatewayDevice.DeviceInfo.ProvisioningCode :
+InternetGatewayDevice.DeviceInfo.SerialNumber : 123456789999990000987654333
+InternetGatewayDevice.DeviceInfo.SoftwareVersion : 3.1.0.597
+InternetGatewayDevice.DeviceInfo.SpecVersion : 1.0
+InternetGatewayDevice.DeviceInfo.UpTime : 8835
+InternetGatewayDevice.DeviceInfo.VendorConfigFile.1.Date : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.DeviceInfo.VendorConfigFile.1.Description :
+InternetGatewayDevice.DeviceInfo.VendorConfigFile.1.Name : config.dat
+InternetGatewayDevice.DeviceInfo.VendorConfigFile.1.Version : 3.1.0.597
+InternetGatewayDevice.DeviceInfo.VendorConfigFileNumberOfEntries : 1
+InternetGatewayDevice.DeviceSummary : InternetGatewayDevice:1.4[](Baseline:2,EthernetWAN:1,EthernetLAN:2,WiFiLAN:2,Time:2,IPPing:1,TraceRoute:1,Download:1,DownloadTCP:1,Upload:1,UploadTCP:1,UDPEcho:1,UDPEchoPlus:1)
+InternetGatewayDevice.DownloadDiagnostics.BOMTime : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.DownloadDiagnostics.DSCP : 0
+InternetGatewayDevice.DownloadDiagnostics.DiagnosticsState : None
+InternetGatewayDevice.DownloadDiagnostics.DownloadURL :
+InternetGatewayDevice.DownloadDiagnostics.EOMTime : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.DownloadDiagnostics.EthernetPriority : 0
+InternetGatewayDevice.DownloadDiagnostics.Interface :
+InternetGatewayDevice.DownloadDiagnostics.ROMTime : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.DownloadDiagnostics.TCPOpenRequestTime : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.DownloadDiagnostics.TCPOpenResponseTime : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.DownloadDiagnostics.TestBytesReceived : 0
+InternetGatewayDevice.DownloadDiagnostics.TotalBytesReceived : 0
+InternetGatewayDevice.Firewall.AdvancedLevel :
+InternetGatewayDevice.Firewall.ChainNumberOfEntries : 0
+InternetGatewayDevice.Firewall.Config : Low
+InternetGatewayDevice.Firewall.Enable : 0
+InternetGatewayDevice.Firewall.LastChange : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.Firewall.LevelNumberOfEntries : 0
+InternetGatewayDevice.Firewall.Type : Stateless
+InternetGatewayDevice.Firewall.Version :
 InternetGatewayDevice.IPPingDiagnostics.AverageResponseTime : 0
 InternetGatewayDevice.IPPingDiagnostics.DSCP : 0
-InternetGatewayDevice.IPPingDiagnostics.DataBlockSize : 0
+InternetGatewayDevice.IPPingDiagnostics.DataBlockSize : 64
 InternetGatewayDevice.IPPingDiagnostics.DiagnosticsState : None
 InternetGatewayDevice.IPPingDiagnostics.FailureCount : 0
 InternetGatewayDevice.IPPingDiagnostics.Host :
 InternetGatewayDevice.IPPingDiagnostics.Interface :
 InternetGatewayDevice.IPPingDiagnostics.MaximumResponseTime : 0
 InternetGatewayDevice.IPPingDiagnostics.MinimumResponseTime : 0
-InternetGatewayDevice.IPPingDiagnostics.NumberOfRepetitions : 0
+InternetGatewayDevice.IPPingDiagnostics.NumberOfRepetitions : 1
 InternetGatewayDevice.IPPingDiagnostics.SuccessCount : 0
-InternetGatewayDevice.IPPingDiagnostics.Timeout : 0
-InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPLeaseTime : 5184000
-InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPServerConfigurable : 1
+InternetGatewayDevice.IPPingDiagnostics.Timeout : 1000
+InternetGatewayDevice.LANConfigSecurity.ConfigPassword :
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.Active : 0
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.AddressSource : DHCP
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.HostName :
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.IPAddress : 192.168.1.2
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.InterfaceType : Ethernet
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.Layer2Interface : InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.LeaseTimeRemaining : 19996
+InternetGatewayDevice.LANDevice.1.Hosts.Host.1.MACAddress : 70:5a:b6:a1:9d:35
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.Active : 1
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.AddressSource : DHCP
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.HostName :
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.IPAddress : 192.168.1.3
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.InterfaceType : 802.11
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.Layer2Interface : InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.LeaseTimeRemaining : 20544
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.MACAddress : 20:a2:e4:0e:2a:12
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.X_RSSI : -58
+InternetGatewayDevice.LANDevice.1.Hosts.Host.2.X_TransmitRate : 72.2M
+InternetGatewayDevice.LANDevice.1.Hosts.HostNumberOfEntries : 2
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.DuplexMode : Full
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Enable : 1
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.MACAddress : 00:1f:ce:00:22:01
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.MACAddressControlEnabled : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.MaxBitRate : 100
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Name : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BytesReceived : 3817
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BytesSent : 164861152
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.MulticastPacketsReceived : 10
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.MulticastPacketsSent : 121353
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.PacketsReceived : 32
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.PacketsSent : 121385
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.UnicastPacketsReceived : 22
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.UnicastPacketsSent : 49
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Status : Up
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.DuplexMode : Full
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Enable : 1
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.MACAddress : 00:1f:ce:00:22:01
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.MACAddressControlEnabled : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.MaxBitRate : 100
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Name : 1
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.BytesReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.BytesSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.PacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.PacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.Status : Up
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.DuplexMode : Auto
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Enable : 1
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.MACAddress : 00:1f:ce:00:22:01
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.MACAddressControlEnabled : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.MaxBitRate : Auto
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Name : 2
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.BytesReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.BytesSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.PacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.PacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3.Status : NoLink
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.DuplexMode : Auto
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Enable : 1
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.MACAddress : 00:1f:ce:00:22:01
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.MACAddressControlEnabled : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.MaxBitRate : Auto
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Name : 3
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.BytesReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.BytesSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.PacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.PacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.Status : NoLink
+InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceNumberOfEntries : 4
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.AllowedMACAddresses :
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.AssociatedConnection :
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPLeaseTime : 480
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPRelay : 0
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPServerConfigurable : 0
 InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPServerEnable : 1
-InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DNSServers : 212.73.87.254,212.73.86.254
-InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DomainName : Home
-InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.Enable : 1
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DHCPStaticAddressNumberOfEntries : 0
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DNSServers :
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DeniedMACAddresses :
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.DomainName :
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.Enable : 0
 InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceAddressingType : Static
 InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceIPAddress : 192.168.1.1
 InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterface.1.IPInterfaceSubnetMask : 255.255.255.0
-InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPRouters : 46.70.0.1
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPInterfaceNumberOfEntries : 1
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.IPRouters : 0.0.0.0
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MACAddress : 00:1f:ce:00:22:01
 InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MaxAddress : 192.168.1.254
-InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MinAddress : 192.168.1.100
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.MinAddress : 192.168.1.2
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.PassthroughLease : 0
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.PassthroughMACAddress :
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.ReservedAddresses :
 InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.SubnetMask : 255.255.255.0
-InternetGatewayDevice.Layer3Forwarding.DefaultConnectionService :
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.UseAllocatedWAN : Normal
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.X_DHCPEventsCount : 0
+InternetGatewayDevice.LANDevice.1.LANHostConfigManagement.X_DHCPEventsLog :
+InternetGatewayDevice.LANDevice.1.LANUSBInterfaceNumberOfEntries : 0
+InternetGatewayDevice.LANDevice.1.LANWLANConfigurationNumberOfEntries : 12
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.APWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.APWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.APWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.APWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.APWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.AuthenticationServiceMode : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.AutoChannelEnable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.AutoRateFallBackEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BSSID : 00:1f:ce:00:32:0b
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BasicAuthenticationMode : Both
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BasicDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BasicEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BeaconAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.BeaconType : 11i
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Channel : 128
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.ChannelsInUse : 128
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.DeviceOperationMode : InfrastructureAccessPoint
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Enable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.IEEE11iAuthenticationMode : PSKAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.IEEE11iEncryptionModes : AESEncryption
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.LocationDescription :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.MaxBitRate : Auto
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Name : wlan0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.OperationalDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PossibleChannels : 1-13
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PossibleDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.1.AssociatedDeviceMACAddress : 00:00:00:00:00:00
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.1.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.1.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.10.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.10.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.10.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.2.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.2.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.2.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.3.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.3.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.3.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.4.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.4.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.4.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.5.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.5.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.5.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.6.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.6.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.6.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.7.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.7.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.7.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.8.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.8.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.8.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.9.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.9.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.PreSharedKey.9.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.RadioEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.SSID : Tattelecom_003202_5G
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.SSIDAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.STAWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.STAWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.STAWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.STAWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.STAWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Standard :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.BytesReceived : 10689
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.BytesSent : 342
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.PacketsReceived : 39
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.PacketsSent : 6
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.Status : Up
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalAssociations : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalBytesReceived : 10689
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalBytesSent : 342
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalPSKFailures : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalPacketsReceived : 39
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TotalPacketsSent : 6
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TransmitPower : 100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.TransmitPowerSupported : 15,35,50,70,100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.UAPSDEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.UAPSDSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPEncryptionLevel : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPKey.1.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPKey.2.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPKey.3.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPKey.4.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WEPKeyIndex : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WMMEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WMMSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WPAAuthenticationMode : PSKAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WPAEncryptionModes : AESEncryption
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.WPS.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_Band : 5 GHz (A+N+AC)
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_BeaconInterval : 100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_ChannelBandwidth : 20MHz/40MHz/80MHz
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.X_PreambleType : Long
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.APWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.APWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.APWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.APWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.APWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.AuthenticationServiceMode : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.AutoChannelEnable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.AutoRateFallBackEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.BSSID : 00:1f:ce:00:32:10
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.BasicAuthenticationMode : OpenSystem
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.BasicDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.BasicEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.BeaconAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.BeaconType : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Channel : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.ChannelsInUse : 8
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.DeviceOperationMode : InfrastructureAccessPoint
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.IEEE11iAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.IEEE11iEncryptionModes :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.LocationDescription :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.MaxBitRate : Auto
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Name : wlan1-va2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.OperationalDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PossibleChannels : 1-13
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PossibleDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.1.AssociatedDeviceMACAddress : 00:00:00:00:00:00
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.1.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.1.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.10.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.10.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.10.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.2.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.2.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.2.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.3.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.3.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.3.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.4.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.4.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.4.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.5.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.5.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.5.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.6.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.6.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.6.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.7.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.7.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.7.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.8.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.8.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.8.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.9.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.9.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.PreSharedKey.9.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.RadioEnabled : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.SSID : Tattelecom.3_003202
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.SSIDAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.STAWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.STAWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.STAWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.STAWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.STAWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Standard : b,g,n
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Stats.BytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Stats.BytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Stats.PacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Stats.PacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.Status : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.TotalAssociations : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.TotalBytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.TotalBytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.TotalPSKFailures : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.TotalPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.TotalPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.TransmitPower : 100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.TransmitPowerSupported : 15,35,50,70,100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.UAPSDEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.UAPSDSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.WEPEncryptionLevel : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.WEPKey.1.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.WEPKey.2.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.WEPKey.3.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.WEPKey.4.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.WEPKeyIndex : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.WMMEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.WMMSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.WPAAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.WPAEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.WPS.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.X_Band : 2.4 GHz (B+G+N)
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.X_BeaconInterval : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.X_ChannelBandwidth : 20MHz
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.10.X_PreambleType : Long
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.APWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.APWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.APWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.APWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.APWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.AuthenticationServiceMode : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.AutoChannelEnable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.AutoRateFallBackEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.BSSID : 00:1f:ce:00:32:10
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.BasicAuthenticationMode : OpenSystem
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.BasicDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.BasicEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.BeaconAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.BeaconType : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Channel : 8
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.ChannelsInUse : 8
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.DeviceOperationMode : InfrastructureAccessPoint
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Enable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.IEEE11iAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.IEEE11iEncryptionModes :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.LocationDescription :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.MaxBitRate : Auto
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Name : wlan1-va3
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.OperationalDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PossibleChannels : 1-13
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PossibleDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.1.AssociatedDeviceMACAddress : 00:00:00:00:00:00
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.1.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.1.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.10.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.10.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.10.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.2.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.2.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.2.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.3.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.3.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.3.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.4.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.4.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.4.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.5.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.5.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.5.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.6.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.6.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.6.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.7.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.7.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.7.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.8.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.8.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.8.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.9.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.9.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.PreSharedKey.9.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.RadioEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.SSID : wifi.tattele.com
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.SSIDAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.STAWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.STAWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.STAWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.STAWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.STAWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Standard : b,g,n
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Stats.BytesReceived : 960952
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Stats.BytesSent : 86072
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Stats.PacketsReceived : 5030
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Stats.PacketsSent : 371
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.Status : Up
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.TotalAssociations : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.TotalBytesReceived : 960952
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.TotalBytesSent : 86072
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.TotalPSKFailures : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.TotalPacketsReceived : 5030
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.TotalPacketsSent : 371
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.TransmitPower : 100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.TransmitPowerSupported : 15,35,50,70,100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.UAPSDEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.UAPSDSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.WEPEncryptionLevel : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.WEPKey.1.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.WEPKey.2.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.WEPKey.3.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.WEPKey.4.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.WEPKeyIndex : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.WMMEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.WMMSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.WPAAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.WPAEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.WPS.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.X_Band : 2.4 GHz (B+G+N)
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.X_BeaconInterval : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.X_ChannelBandwidth : 20MHz
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.11.X_PreambleType : Long
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.APWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.APWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.APWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.APWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.APWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.AuthenticationServiceMode : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.AutoChannelEnable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.AutoRateFallBackEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.BSSID : 00:1f:ce:00:32:10
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.BasicAuthenticationMode : OpenSystem
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.BasicDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.BasicEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.BeaconAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.BeaconType : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Channel : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.ChannelsInUse : 8
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.DeviceOperationMode : WirelessStation
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.IEEE11iAuthenticationMode : PSKAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.IEEE11iEncryptionModes : AESEncryption
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.LocationDescription :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.MaxBitRate :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Name : wlan1-vxd
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.OperationalDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PossibleChannels : 1-13
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PossibleDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.1.AssociatedDeviceMACAddress : 00:00:00:00:00:00
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.1.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.1.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.10.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.10.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.10.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.2.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.2.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.2.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.3.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.3.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.3.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.4.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.4.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.4.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.5.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.5.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.5.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.6.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.6.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.6.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.7.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.7.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.7.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.8.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.8.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.8.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.9.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.9.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.PreSharedKey.9.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.RadioEnabled : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.SSID : RTK 11n AP RPT1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.SSIDAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.STAWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.STAWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.STAWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.STAWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.STAWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Standard :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Stats.BytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Stats.BytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Stats.PacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Stats.PacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.Status : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.TotalAssociations : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.TotalBytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.TotalBytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.TotalPSKFailures : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.TotalPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.TotalPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.TransmitPower : 100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.TransmitPowerSupported : 15,35,50,70,100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.UAPSDEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.UAPSDSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.WEPEncryptionLevel : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.WEPKey.1.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.WEPKey.2.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.WEPKey.3.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.WEPKey.4.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.WEPKeyIndex : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.WMMEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.WMMSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.WPAAuthenticationMode : PSKAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.WPAEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.WPS.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.X_BeaconInterval : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.X_ChannelBandwidth : 20MHz
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.12.X_PreambleType : Long
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.APWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.APWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.APWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.APWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.APWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.AuthenticationServiceMode : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.AutoChannelEnable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.AutoRateFallBackEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.BSSID : 00:1f:ce:00:32:0b
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.BasicAuthenticationMode : OpenSystem
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.BasicDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.BasicEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.BeaconAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.BeaconType : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Channel : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.ChannelsInUse : 128
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.DeviceOperationMode : InfrastructureAccessPoint
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.IEEE11iAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.IEEE11iEncryptionModes :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.LocationDescription :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.MaxBitRate : Auto
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Name : wlan0-va0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.OperationalDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PossibleChannels : 1-13
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PossibleDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.1.AssociatedDeviceMACAddress : 00:00:00:00:00:00
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.1.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.1.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.10.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.10.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.10.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.2.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.2.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.2.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.3.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.3.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.3.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.4.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.4.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.4.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.5.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.5.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.5.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.6.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.6.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.6.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.7.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.7.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.7.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.8.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.8.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.8.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.9.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.9.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.PreSharedKey.9.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.RadioEnabled : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.SSID : Tattelecom.1_003202_5G
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.SSIDAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.STAWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.STAWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.STAWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.STAWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.STAWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Standard :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.BytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.BytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.PacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.PacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.Status : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalAssociations : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalBytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalBytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalPSKFailures : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TotalPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TransmitPower : 100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.TransmitPowerSupported : 15,35,50,70,100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.UAPSDEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.UAPSDSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.WEPEncryptionLevel : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.WEPKey.1.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.WEPKey.2.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.WEPKey.3.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.WEPKey.4.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.WEPKeyIndex : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.WMMEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.WMMSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.WPAAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.WPAEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.WPS.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.X_Band : 5 GHz (A+N+AC)
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.X_BeaconInterval : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.X_ChannelBandwidth : 20MHz
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.2.X_PreambleType : Long
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.APWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.APWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.APWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.APWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.APWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.AuthenticationServiceMode : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.AutoChannelEnable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.AutoRateFallBackEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.BSSID : 00:1f:ce:00:32:0b
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.BasicAuthenticationMode : OpenSystem
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.BasicDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.BasicEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.BeaconAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.BeaconType : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Channel : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.ChannelsInUse : 128
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.DeviceOperationMode : InfrastructureAccessPoint
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.IEEE11iAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.IEEE11iEncryptionModes :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.LocationDescription :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.MaxBitRate : Auto
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Name : wlan0-va1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.OperationalDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PossibleChannels : 1-13
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PossibleDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.1.AssociatedDeviceMACAddress : 00:00:00:00:00:00
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.1.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.1.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.10.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.10.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.10.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.2.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.2.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.2.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.3.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.3.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.3.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.4.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.4.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.4.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.5.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.5.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.5.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.6.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.6.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.6.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.7.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.7.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.7.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.8.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.8.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.8.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.9.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.9.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.PreSharedKey.9.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.RadioEnabled : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.SSID : Tattelecom.1_003202_5G
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.SSIDAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.STAWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.STAWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.STAWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.STAWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.STAWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Standard :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Stats.BytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Stats.BytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Stats.PacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Stats.PacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.Status : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.TotalAssociations : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.TotalBytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.TotalBytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.TotalPSKFailures : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.TotalPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.TotalPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.TransmitPower : 100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.TransmitPowerSupported : 15,35,50,70,100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.UAPSDEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.UAPSDSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.WEPEncryptionLevel : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.WEPKey.1.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.WEPKey.2.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.WEPKey.3.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.WEPKey.4.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.WEPKeyIndex : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.WMMEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.WMMSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.WPAAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.WPAEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.WPS.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.X_Band : 5 GHz (A+N+AC)
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.X_BeaconInterval : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.X_ChannelBandwidth : 20MHz
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.3.X_PreambleType : Long
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.APWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.APWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.APWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.APWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.APWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.AuthenticationServiceMode : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.AutoChannelEnable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.AutoRateFallBackEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.BSSID : 00:1f:ce:00:32:0b
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.BasicAuthenticationMode : OpenSystem
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.BasicDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.BasicEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.BeaconAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.BeaconType : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Channel : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.ChannelsInUse : 128
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.DeviceOperationMode : InfrastructureAccessPoint
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.IEEE11iAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.IEEE11iEncryptionModes :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.LocationDescription :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.MaxBitRate : Auto
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Name : wlan0-va2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.OperationalDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PossibleChannels : 1-13
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PossibleDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.1.AssociatedDeviceMACAddress : 00:00:00:00:00:00
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.1.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.1.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.10.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.10.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.10.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.2.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.2.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.2.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.3.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.3.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.3.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.4.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.4.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.4.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.5.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.5.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.5.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.6.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.6.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.6.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.7.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.7.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.7.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.8.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.8.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.8.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.9.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.9.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.PreSharedKey.9.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.RadioEnabled : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.SSID : Tattelecom.1_003202_5G
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.SSIDAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.STAWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.STAWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.STAWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.STAWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.STAWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Standard :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Stats.BytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Stats.BytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Stats.PacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Stats.PacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.Status : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.TotalAssociations : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.TotalBytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.TotalBytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.TotalPSKFailures : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.TotalPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.TotalPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.TransmitPower : 100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.TransmitPowerSupported : 15,35,50,70,100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.UAPSDEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.UAPSDSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.WEPEncryptionLevel : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.WEPKey.1.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.WEPKey.2.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.WEPKey.3.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.WEPKey.4.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.WEPKeyIndex : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.WMMEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.WMMSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.WPAAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.WPAEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.WPS.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.X_Band : 5 GHz (A+N+AC)
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.X_BeaconInterval : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.X_ChannelBandwidth : 20MHz
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.4.X_PreambleType : Long
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.APWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.APWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.APWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.APWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.APWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.AuthenticationServiceMode : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.AutoChannelEnable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.AutoRateFallBackEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.BSSID : 00:1f:ce:00:32:0b
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.BasicAuthenticationMode : OpenSystem
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.BasicDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.BasicEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.BeaconAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.BeaconType : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Channel : 128
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.ChannelsInUse : 128
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.DeviceOperationMode : InfrastructureAccessPoint
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Enable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.IEEE11iAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.IEEE11iEncryptionModes :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.LocationDescription :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.MaxBitRate : Auto
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Name : wlan0-va3
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.OperationalDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PossibleChannels : 1-13
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PossibleDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.1.AssociatedDeviceMACAddress : 00:00:00:00:00:00
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.1.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.1.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.10.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.10.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.10.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.2.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.2.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.2.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.3.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.3.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.3.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.4.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.4.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.4.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.5.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.5.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.5.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.6.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.6.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.6.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.7.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.7.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.7.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.8.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.8.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.8.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.9.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.9.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.PreSharedKey.9.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.RadioEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.SSID : wifi.tattele.com_5G
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.SSIDAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.STAWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.STAWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.STAWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.STAWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.STAWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Standard :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Stats.BytesReceived : 6120
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Stats.BytesSent : 888
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Stats.PacketsReceived : 24
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Stats.PacketsSent : 4
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.Status : Up
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.TotalAssociations : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.TotalBytesReceived : 6120
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.TotalBytesSent : 888
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.TotalPSKFailures : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.TotalPacketsReceived : 24
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.TotalPacketsSent : 4
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.TransmitPower : 100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.TransmitPowerSupported : 15,35,50,70,100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.UAPSDEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.UAPSDSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.WEPEncryptionLevel : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.WEPKey.1.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.WEPKey.2.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.WEPKey.3.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.WEPKey.4.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.WEPKeyIndex : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.WMMEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.WMMSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.WPAAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.WPAEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.WPS.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.X_Band : 5 GHz (A+N+AC)
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.X_BeaconInterval : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.X_ChannelBandwidth : 20MHz
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.5.X_PreambleType : Long
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.APWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.APWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.APWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.APWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.APWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.AuthenticationServiceMode : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.AutoChannelEnable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.AutoRateFallBackEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.BSSID : 00:1f:ce:00:32:0b
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.BasicAuthenticationMode : OpenSystem
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.BasicDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.BasicEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.BeaconAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.BeaconType : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Channel : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.ChannelsInUse : 128
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.DeviceOperationMode : WirelessStation
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.IEEE11iAuthenticationMode : PSKAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.IEEE11iEncryptionModes : AESEncryption
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.LocationDescription :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.MaxBitRate :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Name : wlan0-vxd
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.OperationalDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PossibleChannels : 1-13
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PossibleDataTransmitRates : 6,9,12,18,24,36,48,54
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.1.AssociatedDeviceMACAddress : 00:00:00:00:00:00
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.1.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.1.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.10.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.10.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.10.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.2.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.2.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.2.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.3.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.3.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.3.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.4.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.4.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.4.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.5.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.5.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.5.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.6.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.6.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.6.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.7.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.7.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.7.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.8.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.8.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.8.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.9.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.9.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.PreSharedKey.9.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.RadioEnabled : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.SSID : RTK 11n AP RPT0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.SSIDAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.STAWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.STAWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.STAWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.STAWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.STAWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Standard :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Stats.BytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Stats.BytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Stats.PacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Stats.PacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.Status : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.TotalAssociations : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.TotalBytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.TotalBytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.TotalPSKFailures : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.TotalPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.TotalPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.TransmitPower : 100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.TransmitPowerSupported : 15,35,50,70,100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.UAPSDEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.UAPSDSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.WEPEncryptionLevel : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.WEPKey.1.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.WEPKey.2.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.WEPKey.3.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.WEPKey.4.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.WEPKeyIndex : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.WMMEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.WMMSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.WPAAuthenticationMode : PSKAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.WPAEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.WPS.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.X_BeaconInterval : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.X_ChannelBandwidth : 20MHz
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.6.X_PreambleType : Long
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.APWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.APWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.APWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.APWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.APWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.AssociatedDevice.1.AssociatedDeviceAuthenticationState : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.AssociatedDevice.1.AssociatedDeviceIPAddress : 192.168.1.3
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.AssociatedDevice.1.AssociatedDeviceMACAddress : 20:a2:e4:0e:2a:12
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.AssociatedDevice.1.LastDataTransmitRate : 72.2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.AssociatedDevice.1.LastPMKId :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.AssociatedDevice.1.LastRequestedMulticastCipher :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.AssociatedDevice.1.LastRequestedUnicastCipher :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.AssociatedDevice.1.X_RSSI : -58
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.AuthenticationServiceMode : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.AutoChannelEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.AutoRateFallBackEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.BSSID : 00:1f:ce:00:32:10
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.BasicAuthenticationMode : Both
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.BasicDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.BasicEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.BeaconAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.BeaconType : 11i
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Channel : 8
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.ChannelsInUse : 8
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.DeviceOperationMode : InfrastructureAccessPoint
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Enable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.IEEE11iAuthenticationMode : PSKAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.IEEE11iEncryptionModes : AESEncryption
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.LocationDescription :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.MaxBitRate : Auto
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Name : wlan1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.OperationalDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PossibleChannels : 1-13
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PossibleDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.1.AssociatedDeviceMACAddress : 00:00:00:00:00:00
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.1.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.1.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.10.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.10.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.10.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.2.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.2.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.2.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.3.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.3.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.3.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.4.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.4.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.4.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.5.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.5.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.5.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.6.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.6.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.6.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.7.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.7.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.7.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.8.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.8.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.8.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.9.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.9.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.PreSharedKey.9.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.RadioEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.SSID : Tattelecom_003202
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.SSIDAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.STAWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.STAWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.STAWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.STAWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.STAWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Standard : b,g,n
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Stats.BytesReceived : 984620
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Stats.BytesSent : 128407
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Stats.PacketsReceived : 5146
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Stats.PacketsSent : 497
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.Status : Up
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.TotalAssociations : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.TotalBytesReceived : 984369
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.TotalBytesSent : 128407
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.TotalPSKFailures : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.TotalPacketsReceived : 5145
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.TotalPacketsSent : 497
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.TransmitPower : 100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.TransmitPowerSupported : 15,35,50,70,100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.UAPSDEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.UAPSDSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.WEPEncryptionLevel : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.WEPKey.1.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.WEPKey.2.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.WEPKey.3.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.WEPKey.4.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.WEPKeyIndex : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.WMMEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.WMMSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.WPAAuthenticationMode : PSKAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.WPAEncryptionModes : AESEncryption
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.WPS.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.X_Band : 2.4 GHz (B+G+N)
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.X_BeaconInterval : 100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.X_ChannelBandwidth : 20MHz/40MHz
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.7.X_PreambleType : Long
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.APWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.APWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.APWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.APWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.APWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.AuthenticationServiceMode : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.AutoChannelEnable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.AutoRateFallBackEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.BSSID : 00:1f:ce:00:32:10
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.BasicAuthenticationMode : OpenSystem
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.BasicDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.BasicEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.BeaconAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.BeaconType : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Channel : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.ChannelsInUse : 8
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.DeviceOperationMode : InfrastructureAccessPoint
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.IEEE11iAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.IEEE11iEncryptionModes :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.LocationDescription :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.MaxBitRate : Auto
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Name : wlan1-va0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.OperationalDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PossibleChannels : 1-13
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PossibleDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.1.AssociatedDeviceMACAddress : 00:00:00:00:00:00
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.1.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.1.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.10.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.10.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.10.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.2.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.2.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.2.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.3.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.3.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.3.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.4.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.4.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.4.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.5.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.5.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.5.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.6.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.6.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.6.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.7.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.7.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.7.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.8.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.8.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.8.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.9.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.9.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.PreSharedKey.9.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.RadioEnabled : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.SSID : Tattelecom.1_003202
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.SSIDAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.STAWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.STAWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.STAWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.STAWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.STAWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Standard : b,g,n
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Stats.BytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Stats.BytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Stats.PacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Stats.PacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.Status : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.TotalAssociations : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.TotalBytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.TotalBytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.TotalPSKFailures : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.TotalPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.TotalPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.TransmitPower : 100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.TransmitPowerSupported : 15,35,50,70,100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.UAPSDEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.UAPSDSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.WEPEncryptionLevel : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.WEPKey.1.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.WEPKey.2.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.WEPKey.3.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.WEPKey.4.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.WEPKeyIndex : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.WMMEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.WMMSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.WPAAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.WPAEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.WPS.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.X_Band : 2.4 GHz (B+G+N)
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.X_BeaconInterval : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.X_ChannelBandwidth : 20MHz
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.8.X_PreambleType : Long
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.APWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.APWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.APWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.APWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.APWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.AuthenticationServiceMode : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.AutoChannelEnable : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.AutoRateFallBackEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.BSSID : 00:1f:ce:00:32:10
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.BasicAuthenticationMode : OpenSystem
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.BasicDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.BasicEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.BeaconAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.BeaconType : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Channel : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.ChannelsInUse : 8
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.DeviceOperationMode : InfrastructureAccessPoint
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.IEEE11iAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.IEEE11iEncryptionModes :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.LocationDescription :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.MaxBitRate : Auto
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Name : wlan1-va1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.OperationalDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PossibleChannels : 1-13
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PossibleDataTransmitRates :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.1.AssociatedDeviceMACAddress : 00:00:00:00:00:00
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.1.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.1.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.10.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.10.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.10.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.2.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.2.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.2.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.3.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.3.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.3.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.4.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.4.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.4.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.5.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.5.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.5.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.6.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.6.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.6.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.7.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.7.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.7.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.8.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.8.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.8.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.9.AssociatedDeviceMACAddress :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.9.KeyPassphrase :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.PreSharedKey.9.PreSharedKey :
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.RadioEnabled : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.SSID : Tattelecom.2_003202
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.SSIDAdvertisementEnabled : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.STAWMMParameter.AIFSN : 2
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.STAWMMParameter.AckPolicy : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.STAWMMParameter.ECWMax : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.STAWMMParameter.ECWMin : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.STAWMMParameter.TXOP : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Standard : b,g,n
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Stats.BroadcastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Stats.BroadcastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Stats.BytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Stats.BytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Stats.DiscardPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Stats.DiscardPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Stats.ErrorsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Stats.ErrorsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Stats.MulticastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Stats.MulticastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Stats.PacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Stats.PacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Stats.UnicastPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Stats.UnicastPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Stats.UnknownProtoPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.Status : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.TotalAssociations : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.TotalBytesReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.TotalBytesSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.TotalPSKFailures : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.TotalPacketsReceived : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.TotalPacketsSent : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.TransmitPower : 100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.TransmitPowerSupported : 15,35,50,70,100
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.UAPSDEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.UAPSDSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.WEPEncryptionLevel : Disabled
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.WEPKey.1.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.WEPKey.2.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.WEPKey.3.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.WEPKey.4.WEPKey : 0000000000
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.WEPKeyIndex : 1
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.WMMEnable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.WMMSupported : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.WPAAuthenticationMode : EAPAuthentication
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.WPAEncryptionModes : None
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.WPS.Enable : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.X_Band : 2.4 GHz (B+G+N)
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.X_BeaconInterval : 0
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.X_ChannelBandwidth : 20MHz
+InternetGatewayDevice.LANDevice.1.WLANConfiguration.9.X_PreambleType : Long
+InternetGatewayDevice.LANDeviceNumberOfEntries : 1
+InternetGatewayDevice.LANInterfaces.LANEthernetInterfaceNumberOfEntries : 0
+InternetGatewayDevice.LANInterfaces.LANUSBInterfaceNumberOfEntries : 0
+InternetGatewayDevice.LANInterfaces.LANWLANConfigurationNumberOfEntries : 0
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.1.AvailableInterfaceKey : 1
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.1.InterfaceReference : InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.1.InterfaceType : LANInterface
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.11.AvailableInterfaceKey : 11
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.11.InterfaceReference : InternetGatewayDevice.LANDevice.1.WLANConfiguration.7
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.11.InterfaceType : LANInterface
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.15.AvailableInterfaceKey : 15
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.15.InterfaceReference : InternetGatewayDevice.LANDevice.1.WLANConfiguration.11
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.15.InterfaceType : LANInterface
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.17.AvailableInterfaceKey : 17
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.17.InterfaceReference : InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.17.InterfaceType : WANInterface
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.18.AvailableInterfaceKey : 18
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.18.InterfaceReference : InternetGatewayDevice.LANDevice.1
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.18.InterfaceType : LANRouterConnection
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.2.AvailableInterfaceKey : 2
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.2.InterfaceReference : InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.2.InterfaceType : LANInterface
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.21.AvailableInterfaceKey : 21
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.21.InterfaceReference : InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.21.InterfaceType : WANRouterConnection
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.3.AvailableInterfaceKey : 3
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.3.InterfaceReference : InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.3.InterfaceType : LANInterface
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.4.AvailableInterfaceKey : 4
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.4.InterfaceReference : InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.4.InterfaceType : LANInterface
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.5.AvailableInterfaceKey : 5
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.5.InterfaceReference : InternetGatewayDevice.LANDevice.1.WLANConfiguration.1
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.5.InterfaceType : LANInterface
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.9.AvailableInterfaceKey : 9
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.9.InterfaceReference : InternetGatewayDevice.LANDevice.1.WLANConfiguration.5
+InternetGatewayDevice.Layer2Bridging.AvailableInterface.9.InterfaceType : LANInterface
+InternetGatewayDevice.Layer2Bridging.AvailableInterfaceNumberOfEntries : 22
+InternetGatewayDevice.Layer2Bridging.BridgeNumberOfEntries : 0
+InternetGatewayDevice.Layer2Bridging.FilterNumberOfEntries : 0
+InternetGatewayDevice.Layer2Bridging.MarkingNumberOfEntries : 0
+InternetGatewayDevice.Layer2Bridging.MaxBridgeEntries : 0
+InternetGatewayDevice.Layer2Bridging.MaxDBridgeEntries : 0
+InternetGatewayDevice.Layer2Bridging.MaxFilterEntries : 0
+InternetGatewayDevice.Layer2Bridging.MaxQBridgeEntries : 0
+InternetGatewayDevice.Layer2Bridging.MaxVLANEntries : 0
+InternetGatewayDevice.Layer3Forwarding.DefaultConnectionService : InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1
 InternetGatewayDevice.Layer3Forwarding.ForwardNumberOfEntries : 0
 InternetGatewayDevice.ManagementServer.ConnectionRequestPassword :
-InternetGatewayDevice.ManagementServer.ConnectionRequestURL : http://46.70.7.44:30005/
-InternetGatewayDevice.ManagementServer.ConnectionRequestUsername : uQAcwwldWtw8
+InternetGatewayDevice.ManagementServer.ConnectionRequestURL : http://178.204.27.84:6264/
+InternetGatewayDevice.ManagementServer.ConnectionRequestUsername : xP4whyBM6M9T
+InternetGatewayDevice.ManagementServer.DownloadProgressURL :
+InternetGatewayDevice.ManagementServer.EnableCWMP : 1
 InternetGatewayDevice.ManagementServer.KickURL :
-InternetGatewayDevice.ManagementServer.ParameterKey : Axess Update parameters
+InternetGatewayDevice.ManagementServer.NATDetected : 0
+InternetGatewayDevice.ManagementServer.ParameterKey :
 InternetGatewayDevice.ManagementServer.Password :
 InternetGatewayDevice.ManagementServer.PeriodicInformEnable : 1
-InternetGatewayDevice.ManagementServer.PeriodicInformInterval : 3600
-InternetGatewayDevice.ManagementServer.PeriodicInformTime : (1970, 1, 1, 0, 0, 0.0)
-InternetGatewayDevice.ManagementServer.URL : http://212.73.65.32
+InternetGatewayDevice.ManagementServer.PeriodicInformInterval : 60
+InternetGatewayDevice.ManagementServer.PeriodicInformTime : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.ManagementServer.STUNEnable : 0
+InternetGatewayDevice.ManagementServer.STUNMaximumKeepAlivePeriod : 0
+InternetGatewayDevice.ManagementServer.STUNMinimumKeepAlivePeriod : 0
+InternetGatewayDevice.ManagementServer.STUNPassword :
+InternetGatewayDevice.ManagementServer.STUNServerAddress :
+InternetGatewayDevice.ManagementServer.STUNServerPort : 0
+InternetGatewayDevice.ManagementServer.STUNUsername :
+InternetGatewayDevice.ManagementServer.UDPConnectionRequestAddress :
+InternetGatewayDevice.ManagementServer.URL : http://devel.tr069.ru:4547/
 InternetGatewayDevice.ManagementServer.UpgradesManaged : 0
-InternetGatewayDevice.ManagementServer.Username : admin
-InternetGatewayDevice.Time.CurrentLocalTime : (2009, 6, 1, 0, 0, 0.0)
-InternetGatewayDevice.Time.LocalTimeZone : +04:00
-InternetGatewayDevice.Time.LocalTimeZoneName : Baku, Tbilisi, Yerevan
-InternetGatewayDevice.Time.NTPServer1 : time.windows.com
-InternetGatewayDevice.Time.NTPServer2 :
+InternetGatewayDevice.ManagementServer.Username :
+InternetGatewayDevice.QueueManagement.AppNumberOfEntries : 0
+InternetGatewayDevice.QueueManagement.AvailableAppList :
+InternetGatewayDevice.QueueManagement.ClassificationNumberOfEntries : 0
+InternetGatewayDevice.QueueManagement.DefaultDSCPMark : 0
+InternetGatewayDevice.QueueManagement.DefaultEthernetPriorityMark : 0
+InternetGatewayDevice.QueueManagement.DefaultForwardingPolicy : 0
+InternetGatewayDevice.QueueManagement.DefaultPolicer : 0
+InternetGatewayDevice.QueueManagement.DefaultQueue : 0
+InternetGatewayDevice.QueueManagement.DefaultTrafficClass : 0
+InternetGatewayDevice.QueueManagement.Enable : 0
+InternetGatewayDevice.QueueManagement.FlowNumberOfEntries : 0
+InternetGatewayDevice.QueueManagement.MaxAppEntries : 8
+InternetGatewayDevice.QueueManagement.MaxClassificationEntries : 16
+InternetGatewayDevice.QueueManagement.MaxFlowEntries : 8
+InternetGatewayDevice.QueueManagement.MaxPolicerEntries : 16
+InternetGatewayDevice.QueueManagement.MaxQueueEntries : 0
+InternetGatewayDevice.QueueManagement.MaxQueues : 0
+InternetGatewayDevice.QueueManagement.PolicerNumberOfEntries : 0
+InternetGatewayDevice.QueueManagement.QueueNumberOfEntries : 0
+InternetGatewayDevice.QueueManagement.QueueStatsNumberOfEntries : 0
+InternetGatewayDevice.Time.CurrentLocalTime : (2018, 3, 28, 10, 53, 13.0)
+InternetGatewayDevice.Time.Enable : 1
+InternetGatewayDevice.Time.LocalTimeZoneName : MAI3
+InternetGatewayDevice.Time.NTPServer1 : ntp1.tattelecom.ru
+InternetGatewayDevice.Time.NTPServer2 : 0.110.116.101
+InternetGatewayDevice.Time.Status : Unsynchronized
+InternetGatewayDevice.TraceRouteDiagnostics.DSCP : 0
+InternetGatewayDevice.TraceRouteDiagnostics.DataBlockSize : 38
+InternetGatewayDevice.TraceRouteDiagnostics.DiagnosticsState : None
+InternetGatewayDevice.TraceRouteDiagnostics.Host :
+InternetGatewayDevice.TraceRouteDiagnostics.Interface :
+InternetGatewayDevice.TraceRouteDiagnostics.MaxHopCount : 30
+InternetGatewayDevice.TraceRouteDiagnostics.NumberOfTries : 3
+InternetGatewayDevice.TraceRouteDiagnostics.ResponseTime : 0
+InternetGatewayDevice.TraceRouteDiagnostics.RouteHopsNumberOfEntries : 0
+InternetGatewayDevice.TraceRouteDiagnostics.Timeout : 5000
+InternetGatewayDevice.UDPEchoConfig.BytesReceived : 0
+InternetGatewayDevice.UDPEchoConfig.BytesResponded : 0
+InternetGatewayDevice.UDPEchoConfig.EchoPlusEnabled : 0
+InternetGatewayDevice.UDPEchoConfig.EchoPlusSupported : 1
+InternetGatewayDevice.UDPEchoConfig.Enable : 0
+InternetGatewayDevice.UDPEchoConfig.Interface :
+InternetGatewayDevice.UDPEchoConfig.PacketsReceived : 0
+InternetGatewayDevice.UDPEchoConfig.PacketsResponded : 0
+InternetGatewayDevice.UDPEchoConfig.SourceIPAddress :
+InternetGatewayDevice.UDPEchoConfig.TimeFirstPacketReceived : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.UDPEchoConfig.TimeLastPacketReceived : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.UDPEchoConfig.UDPPort : 0
+InternetGatewayDevice.UPnP.Device.Capabilities.UPnPArchitecture : 1
+InternetGatewayDevice.UPnP.Device.Capabilities.UPnPBasicDevice : 0
+InternetGatewayDevice.UPnP.Device.Capabilities.UPnPIGD : 0
+InternetGatewayDevice.UPnP.Device.Capabilities.UPnPMediaRenderer : 0
+InternetGatewayDevice.UPnP.Device.Capabilities.UPnPMediaServer : 1
+InternetGatewayDevice.UPnP.Device.Capabilities.UPnPQoSDevice : 0
+InternetGatewayDevice.UPnP.Device.Capabilities.UPnPQoSPolicyHolder : 0
+InternetGatewayDevice.UPnP.Device.Capabilities.UPnPWLANAccessPoint : 0
+InternetGatewayDevice.UPnP.Device.Enable : 0
+InternetGatewayDevice.UPnP.Device.UPnPIGD : 0
+InternetGatewayDevice.UPnP.Device.UPnPMediaRenderer : 0
+InternetGatewayDevice.UPnP.Device.UPnPMediaServer : 0
+InternetGatewayDevice.UPnP.Device.UPnPQoSDevice : 0
+InternetGatewayDevice.UPnP.Device.UPnPQoSPolicyHolder : 0
+InternetGatewayDevice.UPnP.Device.UPnPWLANAccessPoint : 0
+InternetGatewayDevice.UploadDiagnostics.BOMTime : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.UploadDiagnostics.DSCP : 0
+InternetGatewayDevice.UploadDiagnostics.DiagnosticsState : None
+InternetGatewayDevice.UploadDiagnostics.EOMTime : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.UploadDiagnostics.EthernetPriority : 0
+InternetGatewayDevice.UploadDiagnostics.Interface :
+InternetGatewayDevice.UploadDiagnostics.ROMTime : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.UploadDiagnostics.TCPOpenRequestTime : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.UploadDiagnostics.TCPOpenResponseTime : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.UploadDiagnostics.TestFileLength : 0
+InternetGatewayDevice.UploadDiagnostics.TotalBytesSent : 0
+InternetGatewayDevice.UploadDiagnostics.UploadURL :
+InternetGatewayDevice.User.1.Enable : 1
+InternetGatewayDevice.User.1.Password :
+InternetGatewayDevice.User.1.Username : superadmin
+InternetGatewayDevice.User.2.Enable : 1
+InternetGatewayDevice.User.2.Password :
+InternetGatewayDevice.User.2.Username : admin
+InternetGatewayDevice.UserInterface.AutoUpdateServer :
+InternetGatewayDevice.UserInterface.PasswordRequired : 0
+InternetGatewayDevice.UserInterface.PasswordUserSelectable : 0
+InternetGatewayDevice.UserInterface.UpgradeAvailable : 0
+InternetGatewayDevice.UserInterface.UserUpdateServer :
+InternetGatewayDevice.UserInterface.WarrantyDate : (1, 1, 1, 0, 0, 0.0)
+InternetGatewayDevice.UserInterface.X_EnableWizard : 0
+InternetGatewayDevice.UserNumberOfEntries : 2
+InternetGatewayDevice.WANDevice.1.DDNSCfgEnabled : 0
+InternetGatewayDevice.WANDevice.1.DDNSDomainName : host.dyndns.org
+InternetGatewayDevice.WANDevice.1.DDNSPassword :
+InternetGatewayDevice.WANDevice.1.DDNSProvider : 0
+InternetGatewayDevice.WANDevice.1.DDNSUsername :
 InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.EnabledForInternet : 1
-InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Layer1DownstreamMaxBitRate : 19443429
-InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Layer1UpstreamMaxBitRate : 2625000
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Layer1DownstreamMaxBitRate : 1000000
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.Layer1UpstreamMaxBitRate : 1000000
 InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.PhysicalLinkStatus : Up
-InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalBytesReceived : 1126746
-InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalBytesSent : 606046
-InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalPacketsReceived : 2552
-InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalPacketsSent : 2142
-InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.WANAccessType : DSL
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANATMF5LoopbackDiagnostics.AverageResponseTime : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANATMF5LoopbackDiagnostics.DiagnosticsState : None
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANATMF5LoopbackDiagnostics.FailureCount : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANATMF5LoopbackDiagnostics.MaximumResponseTime : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANATMF5LoopbackDiagnostics.MinimumResponseTime : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANATMF5LoopbackDiagnostics.NumberOfRepetitions : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANATMF5LoopbackDiagnostics.SuccessCount : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANATMF5LoopbackDiagnostics.Timeout : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.AAL5CRCErrors : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMEncapsulation : LLC
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMHECErrors : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMMaximumBurstSize : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMPeakCellRate : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMQoS : UBR
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMReceivedBlocks : 26412
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMSustainableCellRate : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ATMTransmittedBlocks : 15214
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.DestinationAddress : PVC:0/35
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.Enable : 1
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.LinkType : EoA
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANDSLLinkConfig.ModulationType : ADSL_2plus
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalBytesReceived : 203206
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalBytesSent : 4148
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalPacketsReceived : 580
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.TotalPacketsSent : 20
+InternetGatewayDevice.WANDevice.1.WANCommonInterfaceConfig.WANAccessType : Ethernet
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANEthernetLinkConfig.EthernetLinkStatus : Up
 InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANIPConnectionNumberOfEntries : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.ConnectionStatus : Connected
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.ConnectionTrigger : AlwaysOn
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.ConnectionType : IP_Routed
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.DNSServers : 212.73.87.254,212.73.86.254
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Enable : 1
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.ExternalIPAddress : 46.70.7.44
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.IdleDisconnectTime : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.LastConnectionError : ERROR_NONE
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.NATEnabled : 1
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Name : pppoe_0_35
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Password :
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.PortMappingNumberOfEntries : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetBytesReceived : 1131675
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetBytesSent : 624480
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetPacketsReceived : 2603
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Stats.EthernetPacketsSent : 2194
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Uptime : 1243814487
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.Username : 7413161012
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.X_ZTE_COM_FirewallEnabled : 1
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.X_ZTE_COM_IGMPEnabled : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.X_ZTE_COM_IPExtension : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.X_ZTE_COM_LocalIPAddress : 46.70.7.44
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.X_ZTE_COM_UseStaticIPAddress : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.AutoDisconnectTime : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionStatus : Connected
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionTrigger : AlwaysOn
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ConnectionType : IP_Routed
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.CurrentMRUSize : 1492
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.DNSEnabled : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.DNSOverrideAllowed : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.DNSServers : 89.232.109.74,217.23.177.252
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.DefaultGateway : 10.16.255.135
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Enable : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.ExternalIPAddress : 178.204.27.84
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.IdleDisconnectTime : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.LastConnectionError : ERROR_NONE
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.MACAddress : 00:1f:ce:00:32:02
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.MaxMRUSize : 1492
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.NATEnabled : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Name :
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPAuthenticationProtocol : PAP, CHAP, PAPandCHAP
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPCompressionProtocol : None
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPEncryptionProtocol : None
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPLCPEcho : 30
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPLCPEchoRetry : 5
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPoEACName : notsupport
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPoEServiceName :
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PPPoESessionID : 24378
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Password :
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping.1.ExternalPort : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping.1.ExternalPortEndRange : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping.1.InternalClient : 0.0.0.0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping.1.InternalPort : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping.1.PortMappingDescription : Created by TR069[1]
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping.1.PortMappingEnabled : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping.1.PortMappingLeaseDuration : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping.1.PortMappingProtocol : TCPandUDP
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMapping.1.RemoteHost : 0.0.0.0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PortMappingNumberOfEntries : 1
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.PossibleConnectionTypes : IP_Routed
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.RSIPAvailable : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.RemoteIPAddress : 10.16.255.135
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Reset : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.RouteProtocolRx :
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetBroadcastPacketsReceived : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetBroadcastPacketsSent : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetBytesReceived : 11490
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetBytesSent : 3573
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetDiscardPacketsReceived : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetDiscardPacketsSent : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetErrorsReceived : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetErrorsSent : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetMulticastPacketsReceived : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetMulticastPacketsSent : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetPacketsReceived : 35
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetPacketsSent : 11
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetUnicastPacketsReceived : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetUnicastPacketsSent : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.EthernetUnknownProtoPacketsReceived : 0
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.X_PPPoEDFramesCount : 8
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Stats.X_PPPoEDFramesLog : [1522225606;PADI],[1522225606;PADO],[1522225606;PADR],[1522225606;PADS],[1522225614;AUTHSUCC],[1522234333;PADI],[1522234333;PADO],[1522234333;PADR],[1522234333;PADS],[1522234342;AUTHSUCC]
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.TransportType : PPPoE
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Uptime : 52
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.Username : CZ24421
+InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.WarnDisconnectDelay : 0
 InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnectionNumberOfEntries : 1
-InternetGatewayDevice.WANDevice.1.WANDSLConnectionManagement.ConnectionService.1.ConnectionType : IP_Routed
-InternetGatewayDevice.WANDevice.1.WANDSLConnectionManagement.ConnectionService.1.DestinationAddress : PVC:0/35
-InternetGatewayDevice.WANDevice.1.WANDSLConnectionManagement.ConnectionService.1.LinkType : EoA
-InternetGatewayDevice.WANDevice.1.WANDSLConnectionManagement.ConnectionService.1.Name : pppoe_0_35
-InternetGatewayDevice.WANDevice.1.WANDSLConnectionManagement.ConnectionService.1.WANConnectionDevice : InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1
-InternetGatewayDevice.WANDevice.1.WANDSLConnectionManagement.ConnectionService.1.WANConnectionService : InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2
-InternetGatewayDevice.WANDevice.1.WANDSLConnectionManagement.ConnectionServiceNumberOfEntries : 1
-InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.ACTATPds : 0
-InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.ACTATPus : 0
-InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.ACTPSDds : 0
-InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.ACTPSDus : 0
-InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.BITSpsds :
-InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.GAINSpsds :
-InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.HLINSCds : 0
-InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.HLINpsds :
-InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.LoopDiagnosticsState : None
-InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.QLNpsds :
-InternetGatewayDevice.WANDevice.1.WANDSLDiagnostics.SNRpsds :
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.ATUCCountry : 46336
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.ATUCVendor : BDCM0000
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.ATURCountry : 46336
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.ATURVendor : BDCM0000
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DataPath : Fast
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DownstreamAttenuation : 85
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DownstreamCurrRate : 6092
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DownstreamMaxRate : 19382
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DownstreamNoiseMargin : 283
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.DownstreamPower : 132
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Enable : 1
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.InterleaveDepth : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.LineEncoding : DMT
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.LineNumber : 1
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.ModulationType : ADSL_2plus
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.ShowtimeStart : 12968
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.ATUCCRCErrors : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.ATUCFECErrors : 7836741
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.ATUCHECErrors : 41691497
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.CRCErrors : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.CellDelin : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.ErroredSecs : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.FECErrors : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.HECErrors : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.InitErrors : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.InitTimeouts : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.LinkRetrain : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.LossOfFraming : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.ReceiveBlocks : 805200
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.SeverelyErroredSecs : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Showtime.TransmitBlocks : 810438
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.ATUCCRCErrors : 1275240
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.ATUCFECErrors : 65187866
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.ATUCHECErrors : 41691497
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.CRCErrors : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.CellDelin : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.ErroredSecs : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.FECErrors : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.HECErrors : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.InitErrors : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.InitTimeouts : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.LinkRetrain : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.LossOfFraming : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.ReceiveBlocks : 805138
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.SeverelyErroredSecs : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Stats.Total.TransmitBlocks : 0
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.Status : Up
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.TotalStart : 13253
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.UpstreamAttenuation : 35
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.UpstreamCurrRate : 2496
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.UpstreamMaxRate : 2621
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.UpstreamNoiseMargin : 72
-InternetGatewayDevice.WANDevice.1.WANDSLInterfaceConfig.UpstreamPower : 190
-InternetGatewayDevice.X_ZTE_COM_AccessServiceCfg.FTP : lan
-InternetGatewayDevice.X_ZTE_COM_AccessServiceCfg.HTTP : lan
-InternetGatewayDevice.X_ZTE_COM_AccessServiceCfg.ICMP : lan
-InternetGatewayDevice.X_ZTE_COM_AccessServiceCfg.SNMP : lan
-InternetGatewayDevice.X_ZTE_COM_AccessServiceCfg.SSH : lan
-InternetGatewayDevice.X_ZTE_COM_AccessServiceCfg.TFTP : lan
-InternetGatewayDevice.X_ZTE_COM_AccessServiceCfg.Telnet : lan
-InternetGatewayDevice.X_ZTE_COM_DebugPortMirroringCfg.1.Direction : IN
-InternetGatewayDevice.X_ZTE_COM_DebugPortMirroringCfg.1.FlowType : 802.3
-InternetGatewayDevice.X_ZTE_COM_DebugPortMirroringCfg.1.MirrorPort : eth0
-InternetGatewayDevice.X_ZTE_COM_DebugPortMirroringCfg.1.MonitorPort : WAN0
-InternetGatewayDevice.X_ZTE_COM_DebugPortMirroringCfg.1.RecNo : 1
-InternetGatewayDevice.X_ZTE_COM_DebugPortMirroringCfg.1.Status : 0
-InternetGatewayDevice.X_ZTE_COM_DebugPortMirroringCfg.2.Direction : IN
-InternetGatewayDevice.X_ZTE_COM_DebugPortMirroringCfg.2.FlowType : 802.3
-InternetGatewayDevice.X_ZTE_COM_DebugPortMirroringCfg.2.MirrorPort : eth0
-InternetGatewayDevice.X_ZTE_COM_DebugPortMirroringCfg.2.MonitorPort : WAN0
-InternetGatewayDevice.X_ZTE_COM_DebugPortMirroringCfg.2.RecNo : 2
-InternetGatewayDevice.X_ZTE_COM_DebugPortMirroringCfg.2.Status : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.PortMapping.1.ExternalPort : 65535
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.PortMapping.1.InternalClient : 0.0.0.0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.PortMapping.1.InternalPort : 65535
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.PortMapping.1.PortMappingDescription :
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.PortMapping.1.PortMappingEnabled : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.PortMapping.1.PortMappingLeaseDuration : 0
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.PortMapping.1.PortMappingProtocol :
-InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.2.PortMapping.1.RemoteHost : 0.0.0.0
-InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.DuplexMode : Auto
-InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Enable : 1
-InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.MACAddress : 00:22:93:a7:c9:dc
-InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.MaxBitRate : Auto
-InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BytesReceived : 458321
-InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.BytesSent : 2301910
-InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.PacketsReceived : 3732
-InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Stats.PacketsSent : 3331
-InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.Status : Disabled
+InternetGatewayDevice.WANDevice.1.WANConnectionNumberOfEntries : 1
+InternetGatewayDevice.WANDevice.1.WANEthernetInterfaceConfig.DuplexMode : Full
+InternetGatewayDevice.WANDevice.1.WANEthernetInterfaceConfig.Enable : 1
+InternetGatewayDevice.WANDevice.1.WANEthernetInterfaceConfig.MACAddress : 00:1f:ce:00:32:02
+InternetGatewayDevice.WANDevice.1.WANEthernetInterfaceConfig.MaxBitRate : 100
+InternetGatewayDevice.WANDevice.1.WANEthernetInterfaceConfig.Stats.BytesReceived : 203206
+InternetGatewayDevice.WANDevice.1.WANEthernetInterfaceConfig.Stats.BytesSent : 4148
+InternetGatewayDevice.WANDevice.1.WANEthernetInterfaceConfig.Stats.PacketsReceived : 580
+InternetGatewayDevice.WANDevice.1.WANEthernetInterfaceConfig.Stats.PacketsSent : 20
+InternetGatewayDevice.WANDevice.1.WANEthernetInterfaceConfig.Status : Up
+InternetGatewayDevice.WANDeviceNumberOfEntries : 1
+InternetGatewayDevice.X_FTP.AccessForAny : No
+InternetGatewayDevice.X_FTP.Enable : 0
+InternetGatewayDevice.X_FTP.Users.1.Access : RO
+InternetGatewayDevice.X_FTP.Users.1.Enable : 0
+InternetGatewayDevice.X_FTP.Users.1.Password :
+InternetGatewayDevice.X_FTP.Users.1.Username :
+InternetGatewayDevice.X_FTP.Users.2.Access : RO
+InternetGatewayDevice.X_FTP.Users.2.Enable : 0
+InternetGatewayDevice.X_FTP.Users.2.Password :
+InternetGatewayDevice.X_FTP.Users.2.Username :
+InternetGatewayDevice.X_FTP.Users.3.Access : RO
+InternetGatewayDevice.X_FTP.Users.3.Enable : 0
+InternetGatewayDevice.X_FTP.Users.3.Password :
+InternetGatewayDevice.X_FTP.Users.3.Username :
+InternetGatewayDevice.X_ParentalControl.DevicesNumberOfEntries : 0
+InternetGatewayDevice.X_ParentalControl.Enable : 0
+InternetGatewayDevice.X_ParentalControl.Password :
+InternetGatewayDevice.X_Samba.AccessForAny : RW
+InternetGatewayDevice.X_Samba.Enable : 0
+InternetGatewayDevice.X_Samba.NetBIOSName : TT_ROUTER
+InternetGatewayDevice.X_Samba.WorkGroupName : WORKGROUP
+InternetGatewayDevice.X_USB.MiniDLNAEnable : 0
+InternetGatewayDevice.X_USB.PrintServerEnable : 0
